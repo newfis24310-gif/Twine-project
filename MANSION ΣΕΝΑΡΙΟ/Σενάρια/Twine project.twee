@@ -58,7 +58,6 @@ Aethra: Δεν μπορούμε να φύγουμε! Είμαι η Aethra, απ�
 (click: ?page)[(goto: "Veronica 1")]
 
 
-
 :: Nyx {"position":"100,800","size":"100,100"}
 <div class="nyx-wrapper">
 
@@ -200,6 +199,10 @@ Hi
 
 :: Telemacus 5 {"position":"850,350","size":"100,100"}
 (click: ?page)[(goto: "Orion 5")]
+
+
+:: Untitled Passage {"position":"1075,350","size":"100,100"}
+
 
 
 :: Veronica {"position":"100,200","size":"100,100"}
