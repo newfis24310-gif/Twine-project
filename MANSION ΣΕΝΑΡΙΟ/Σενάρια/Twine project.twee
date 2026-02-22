@@ -924,7 +924,7 @@ Orion: Θα πρέπει να είναι ο δαίμονας.
 Έχει καφέ πούπουλα και πορτοκαλό/καφέ μάτια. Φοράει μια σκούρο καφέ ρόμπα που μοιάζει λίγο με kimono και ταυτόχρονα στολή ιερέα. Το ρούχο του έχει μερικά ραμμένα σχήματα από ανοικτά μάτια στις άκρες τις ρόμπας που σχεδόν ακουμπάει το πάτωμα. Ορισμένες στρώσεις του ρούχου του είναι κάπως διάφανες (σχεδόν γυάλινες) και σε σημεία υπάρχουν σχηματισμένα μικρά γρανάζια.]]</p></div>
 
 <div>(align:"=><=")[<img class="tel-img"
-src= "C:\Users\liapp\Documents\GitHub\Twine-project\MANSION ΣΕΝΑΡΙΟ\Images\Telemacus (now).png" />]</div>
+src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Telemacus (now).png" />]</div>
 
 (enchant:?page,(bg:#2d1d10))
 (link: "⬅ Πίσω")[(undo:)]
