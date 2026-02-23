@@ -231,9 +231,12 @@ Aethra: Πρέπει να τελειώνουμε. Κανείς μόνος έξω
 (track: &#39;Tired Room&#39;, &#39;volume&#39;, 1)
 (track: &#39;Tired Room&#39;, &#39;loop&#39;, true)
 (track: &#39;Tired Room&#39;, &#39;play&#39;)
-(track: &#39;Tired Room&#39;, &#39;volume&#39;, 1)
-(track: &#39;Tired Room&#39;, &#39;loop&#39;, true)
-(track: &#39;Tired Room&#39;, &#39;play&#39;)</tw-passagedata><tw-passagedata pid="8" name="Main Menu" tags="" position="100,50" size="100,100">&lt;h1&gt;Group 2&lt;/h1&gt;
+(track: &#39;Rain&#39;, &#39;volume&#39;, 0.6)
+(track: &#39;Rain&#39;, &#39;loop&#39;, true)
+(track: &#39;Rain&#39;, &#39;play&#39;)
+(track: &#39;Clock&#39;, &#39;volume&#39;, 0.8)
+(track: &#39;Clock&#39;, &#39;loop&#39;, true)
+(track: &#39;Clock&#39;, &#39;play&#39;)</tw-passagedata><tw-passagedata pid="8" name="Main Menu" tags="" position="100,50" size="100,100">&lt;h1&gt;Group 2&lt;/h1&gt;
 
 [[Enter Evergreen&#39;s Mansion|Intro]]</tw-passagedata><tw-passagedata pid="9" name="Nyx" tags="" position="100,950" size="100,100">&lt;div class=&quot;nyx-wrapper&quot;&gt;
 
@@ -610,7 +613,20 @@ Nyx: Εμπιστευτείτε με.
 
 
 
-(click: ?page)[(goto: &quot;Veronica 5&quot;)]</tw-passagedata><tw-passagedata pid="14" name="Nyx 5" tags="" position="850,950" size="100,100">Σκηνή Πέμπτη
+(click: ?page)[(goto: &quot;Veronica 5&quot;)]
+
+(track: &#39;Confused&#39;, &#39;fadeout&#39;, 0.2)
+(live:0.2s)[
+(stop:)
+(track: &#39;Magic&#39;, &#39;volume&#39;, 1)
+(track: &#39;Magic&#39;, &#39;loop&#39;, true)
+(track: &#39;Magic&#39;, &#39;play&#39;)]
+(track: &#39;Rain&#39;, &#39;volume&#39;, 0.6)
+(track: &#39;Rain&#39;, &#39;loop&#39;, true)
+(track: &#39;Rain&#39;, &#39;play&#39;)
+(track: &#39;Clock&#39;, &#39;volume&#39;, 0.8)
+(track: &#39;Clock&#39;, &#39;loop&#39;, true)
+(track: &#39;Clock&#39;, &#39;play&#39;)</tw-passagedata><tw-passagedata pid="14" name="Nyx 5" tags="" position="850,950" size="100,100">Σκηνή Πέμπτη
 Εσωτερικό – Τραπεζαρία
 Χρόνος: Σταματημένος
 
@@ -793,7 +809,20 @@ Orion: Για αυτό έχεις κομμάτι απο το γράμμα. Σή�
 
 
 
-(click: ?page)[(goto: &quot;Aethra 2&quot;)]</tw-passagedata><tw-passagedata pid="18" name="Orion 3" tags="" position="550,650" size="100,100">Σκηνή τρίτη
+(click: ?page)[(goto: &quot;Aethra 2&quot;)]
+
+(track: &#39;Tired Room&#39;, &#39;fadeout&#39;, 0.2)
+(live:0.2s)[
+(stop:)
+(track: &#39;Shadow&#39;, &#39;volume&#39;, 0.7)
+(track: &#39;Shadow&#39;, &#39;loop&#39;, true)
+(track: &#39;Shadow&#39;, &#39;play&#39;)]
+(track: &#39;Rain&#39;, &#39;volume&#39;, 0.6)
+(track: &#39;Rain&#39;, &#39;loop&#39;, true)
+(track: &#39;Rain&#39;, &#39;play&#39;)
+(track: &#39;Clock&#39;, &#39;volume&#39;, 0.8)
+(track: &#39;Clock&#39;, &#39;loop&#39;, true)
+(track: &#39;Clock&#39;, &#39;play&#39;)</tw-passagedata><tw-passagedata pid="18" name="Orion 3" tags="" position="550,650" size="100,100">Σκηνή τρίτη
 
 Εσωτερικό — Σαλόνι
 Χρόνος: Άγνωστος
@@ -1141,12 +1170,18 @@ Telemacus: Μήπως να σταματήσουμε να κάνουμε τις �
 
 (click: ?page)[(goto: &quot;Orion 3&quot;)]
 
-(track: &#39;Tired Room&#39;, &#39;fadeout&#39;, 0.2)
+(track: &#39;Shadow&#39;, &#39;fadeout&#39;, 0.2)
 (live:0.2s)[
 (stop:)
 (track: &#39;Confused&#39;, &#39;volume&#39;, 0.7)
 (track: &#39;Confused&#39;, &#39;loop&#39;, true)
-(track: &#39;Confused&#39;, &#39;play&#39;)]</tw-passagedata><tw-passagedata pid="27" name="Telemacus 4" tags="Telemacus" position="700,500" size="100,100">Σκηνή τέταρτη
+(track: &#39;Confused&#39;, &#39;play&#39;)]
+(track: &#39;Rain&#39;, &#39;volume&#39;, 0.6)
+(track: &#39;Rain&#39;, &#39;loop&#39;, true)
+(track: &#39;Rain&#39;, &#39;play&#39;)
+(track: &#39;Clock&#39;, &#39;volume&#39;, 0.8)
+(track: &#39;Clock&#39;, &#39;loop&#39;, true)
+(track: &#39;Clock&#39;, &#39;play&#39;)</tw-passagedata><tw-passagedata pid="27" name="Telemacus 4" tags="Telemacus" position="700,500" size="100,100">Σκηνή τέταρτη
 Εσωτερικό - Τραπεζαρία
 Χρόνος: Άγνωστος
 
@@ -1486,8 +1521,16 @@ Veronica:  Δεν μπορώ να το κάνω μόνη μου. Επιλέξτ�
 
 (click: ?page)[(goto: &quot;Telemacus 5&quot;)]</tw-passagedata><tw-passagedata pid="35" name="hal.config" tags="" position="225,50" size="100,100">showControls: false;
 preload: false;</tw-passagedata><tw-passagedata pid="36" name="hal.tracks" tags="" position="350,50" size="100,100">Tired Room: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Music/Bless This Morning Year.mp3
+
 Confused: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Music/Gomorin Dance.mp3
-Rain: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Sounds/edr-rain-and-thunder-storm-001-8439.mp3</tw-passagedata><tw-passagedata pid="37" name="μυστικό" tags="" position="450,725" size="100,100">Orion: Nyx, ο Orion είμαι, πρέπει να σου πω κάτι χωρίς να το ακούσουν οι υπόλοιποι.
+
+Rain: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Sounds/edr-rain-and-thunder-storm-001-8439.mp3
+
+Clock: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Sounds/dragon-studio-clock-ticking-effect-376883.mp3
+
+Magic: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Music/Caixa de Dolços_.mp3
+
+Shadow: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Music/scar.mp3</tw-passagedata><tw-passagedata pid="37" name="μυστικό" tags="" position="450,725" size="100,100">Orion: Nyx, ο Orion είμαι, πρέπει να σου πω κάτι χωρίς να το ακούσουν οι υπόλοιποι.
 
 
 Ο δαίμονας της ισορροπίας δεν είναι απλώς ένας μύθος· είναι ένα νεκροζώντανο πλάσμα, μισό πεθαμένο και μισό ζωντανό, γεννημένο από τα έγκατα της γης. Η ιστορία του είναι ατελείωτη κι όσο μεγαλώνω, τόσο περισσότερο πιστεύω πως η οικογένειά μου ευθύνεται για τη δύναμη που απέκτησε.

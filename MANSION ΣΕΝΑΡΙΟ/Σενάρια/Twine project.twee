@@ -602,6 +602,19 @@ Nyx: Εμπιστευτείτε με.
 
 (click: ?page)[(goto: "Veronica 5")]
 
+(track: 'Confused', 'fadeout', 0.2)
+(live:0.2s)[
+(stop:)
+(track: 'Magic', 'volume', 1)
+(track: 'Magic', 'loop', true)
+(track: 'Magic', 'play')]
+(track: 'Rain', 'volume', 0.6)
+(track: 'Rain', 'loop', true)
+(track: 'Rain', 'play')
+(track: 'Clock', 'volume', 0.8)
+(track: 'Clock', 'loop', true)
+(track: 'Clock', 'play')
+
 
 :: Nyx 5 {"position":"850,950","size":"100,100"}
 Σκηνή Πέμπτη
@@ -800,6 +813,19 @@ Orion: Για αυτό έχεις κομμάτι απο το γράμμα. Σή�
 
 
 (click: ?page)[(goto: "Aethra 2")]
+
+(track: 'Tired Room', 'fadeout', 0.2)
+(live:0.2s)[
+(stop:)
+(track: 'Shadow', 'volume', 0.7)
+(track: 'Shadow', 'loop', true)
+(track: 'Shadow', 'play')]
+(track: 'Rain', 'volume', 0.6)
+(track: 'Rain', 'loop', true)
+(track: 'Rain', 'play')
+(track: 'Clock', 'volume', 0.8)
+(track: 'Clock', 'loop', true)
+(track: 'Clock', 'play')
 
 
 :: Orion 3 {"position":"550,650","size":"100,100"}
@@ -1183,12 +1209,18 @@ Telemacus: Μήπως να σταματήσουμε να κάνουμε τις �
 
 (click: ?page)[(goto: "Orion 3")]
 
-(track: 'Tired Room', 'fadeout', 0.2)
+(track: 'Shadow', 'fadeout', 0.2)
 (live:0.2s)[
 (stop:)
-(track: 'Confused', 'volume', 0.5)
+(track: 'Confused', 'volume', 0.7)
 (track: 'Confused', 'loop', true)
 (track: 'Confused', 'play')]
+(track: 'Rain', 'volume', 0.6)
+(track: 'Rain', 'loop', true)
+(track: 'Rain', 'play')
+(track: 'Clock', 'volume', 0.8)
+(track: 'Clock', 'loop', true)
+(track: 'Clock', 'play')
 
 
 :: Telemacus 4 [Telemacus] {"position":"700,500","size":"100,100"}
@@ -1574,6 +1606,10 @@ Confused: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/M
 Rain: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Sounds/edr-rain-and-thunder-storm-001-8439.mp3
 
 Clock: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Sounds/dragon-studio-clock-ticking-effect-376883.mp3
+
+Magic: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Music/Caixa de Dolços_.mp3
+
+Shadow: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Music/scar.mp3
 
 
 :: μυστικό {"position":"450,725","size":"100,100"}
