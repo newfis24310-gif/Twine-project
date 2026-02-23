@@ -9,22 +9,31 @@ Twine project
   "format-version": "3.3.9",
   "start": "Main Menu",
   "tag-colors": {
-    "Telemacus": "yellow"
+    "Telemacus": "yellow",
+    "Aethra": "red"
   },
   "zoom": 1
 }
 
 
-:: Aertha {"position":"100,800","size":"100,100"}
+:: Aertha [Aethra] {"position":"100,800","size":"100,100"}
 Εμφάνιση: Νεαρή κοπέλα με λεπτό και αποδυναμωμένο σώμα. Φοράει απλά σκούρα ρούχα, φθαρμένα αλλά καθαρά και πρακτικά. Τα μαλλιά της είναι δεμένα χαμηλά, με κάποιες ατίθασες τούφες να ξεφεύγουν από τον δεσμό τους. Το πρόσωπό της έχει την νεακή λάμψη, με έντονα ζυγωματικά. Τα μάτια της είναι σκούρα, σχεδόν μαύρα και το βλέμμα της βαθύ. Τα χέρια της είναι σκληραγωγημένα, μαθημένα στην δουλεία.
+
+<div>(align:"=><=")[<img class="aethra-img"
+src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Aethra.png" />]</div>
+
 
  (link: "⬅ Πίσω")[(undo:)]
 
 
-:: Aethra 1 {"position":"250,800","size":"100,100"}
+:: Aethra 1 [Aethra] {"position":"250,800","size":"100,100"}
 Σκηνή πρώτη
 Εσωτερικό - Τραπεζαρία
 Απόγευμα 
+
+<div>(align:"=><=")[<img class="aethra-img"
+src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Aethra.png" />]</div>
+
 
 // Ποίοι είναι όλοι αυτοί; Ιερείς με πούπουλα, βασιλίαδες και αηδίες! Αηδίες. Ο Φόβος είναι, το ξερώ. Πρέπει να φύγω από εδώ.// 
 
@@ -32,13 +41,18 @@ H Aertha ένιωθε πως κάτι δεν πήγαινε καλά. Η σιω�
 
 Aethra: Δεν μπορούμε να φύγουμε! Δεν μπορούμε να φύγουμε. Είμαι η Aethra, από το Salem Village. Δεν ξέρω πως βρέθηκα εδώ μαζί σας και τι είστε όλοι εσείς. Αυτό που ξέρω, όμως, είναι τι είναι η μαγεία και πότε παύει να προστατεύει και αρχίζει να δεσμεύει.. Δεν μπορούμε να φύγουμε, δεν μπορούμε να φύγουμε...
 
+
 (click: ?page)[(goto: "Nyx 1")]
 
 
-:: Aethra 2 {"position":"400,800","size":"100,100"}
+:: Aethra 2 [Aethra] {"position":"400,800","size":"100,100"}
 Σκηνή δεύτερη
 Εσωτερικό - Τραπεζαρία
 Απόγευμα 
+
+<div>(align:"=><=")[<img class="aethra-img"
+src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Aethra.png" />]</div>
+
 
 Η Aertha παρατηρούσε σιωπηλή.  
 
@@ -52,7 +66,7 @@ Aethra: Δεν μπορούμε να φύγουμε! Δεν μπορούμε ν�
 
 Πλησιάζει την Veronica και την Nyx ανοίγοντας ελαφριά τα χέρια της. Μια σχεδόν ανεπαίσθητη θερμότητα απλώθηκε στα πόδια τους και ταυτόχρονα τα μαλλιά της ελευθερώθηκαν από τα δεσμά τους.  
 
-Aethra: Veronica, Nyx! Μείνετε κοντά μου.  
+Aethra: Κορίτσια! Μείνετε κοντά μου.  
 
 Το χτύπημα στην πόρτα συνέχιζε, κάθε φορά πιο δυνατό. 
 
@@ -78,16 +92,18 @@ Aethra:  Και συ Τηλέμαχε... Πάντα έτσι μιλάτε για
 
 Όμως, αυτή ήταν η αρχή για ότι θα συνέβαινε μετά.  
 
- 
-
 
 (click: ?page)[(goto: "Nyx 2")]
 
 
-:: Aethra 3 {"position":"550,800","size":"100,100"}
+:: Aethra 3 [Aethra] {"position":"550,800","size":"100,100"}
 Σκηνή τρίτη
 Εσωτερικό - Τραπεζαρία
 Χρόνος: Άγνωστος
+
+<div>(align:"=><=")[<img class="aethra-img"
+src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Aethra.png" />]</div>
+
 
 Στην τραπεζαρία επικράτησε  σιωπή μετά το τελευταίο χτύπημα για μερικές στιγμές. Η Aethra παρέμεινε κοντά στην Veronica και την Nyx με το βλέμμα της καρφωμένο στην πόρτα.  
 Ο αέρας στο δωμάτιο γινόταν όλο και πιο βαρύς. 
@@ -112,10 +128,14 @@ Aethra: Ο Orion ευθύνεται για όλα, εκείνος φταίει! 
 (click: ?page)[(goto: "Nyx 3")]
 
 
-:: Aethra 4 {"position":"700,800","size":"100,100"}
+:: Aethra 4 [Aethra] {"position":"700,800","size":"100,100"}
 Σκηνή τέταρτη
 Εσωτερικό - Τραπεζαρία
 Χρόνος: Άγνωστος
+
+<div>(align:"=><=")[<img class="aethra-img"
+src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Aethra.png" />]</div>
+
 
 Η Aethra δεν πίστευε τίποτα από όσα άκουγε, τίποτα από όσα έβλεπε. Στην ζωή της είχε μάθει πολύ κάλα πως η "αληθεία" ορίζεται από τους ισχυρούς. Πίστευε μόνο αυτό που ένιωθε και είχε σταματήσει να νιώθει την παρουσία της Veronica στον χώρο. 
 
@@ -151,10 +171,14 @@ conflagra dominans super nos.
 (click: ?page)[(goto: "Nyx 4")]
 
 
-:: Aethra 5 {"position":"850,800","size":"100,100"}
+:: Aethra 5 [Aethra] {"position":"850,800","size":"100,100"}
 Σκηνή Πέμπτη
 Εσωτερικό – Τραπεζαρία
 Χρόνος: Σταματημένος
+
+<div>(align:"=><=")[<img class="aethra-img"
+src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Aethra.png" />]</div>
+
 
 H Aethra, σαν να μην το σκέφτηκε στιγμή, έκανε μερικά βήματα και στάθηκε ακριβώς έξω από τον ρούνο. 
 
@@ -1727,9 +1751,24 @@ tw-passage {
     margin-right: auto;
 }
 
+.aethra-img{
+    position:relative;
+    width:50%;
+    height:50%
+    border-radius:12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 tw-story[tags~="Telemacus"] {
     background-color: #2d1d10;
     color: #f5e3c7;
+}
+
+tw-story[tags~="Aethra"] {
+    background-color: #131313;
+    color: #f3f2f3;
 }
 
 
