@@ -8,6 +8,9 @@ Twine project
   "format": "Harlowe",
   "format-version": "3.3.9",
   "start": "Main Menu",
+  "tag-colors": {
+    "Telemacus": "yellow"
+  },
   "zoom": 1
 }
 
@@ -187,6 +190,7 @@ Aethra: Πρέπει να τελειώνουμε. Κανείς μόνος έξω
 Κάτω από τον πίνακα, δίπλα στο τζάκι, μια σκιά πάλλεται ελαφρά, ενώ δεν θα έπρεπε. Στο κέντρο του τραπεζιού βρίσκεται ένας κλειστός φάκελος.
 
 [[Κανείς δεν θυμάται να τον άφησε εκεί.|Veronica 1]]
+
 (track: 'Tired Room', 'volume', 1)
 (track: 'Tired Room', 'loop', true)
 (track: 'Tired Room', 'play')
@@ -1026,7 +1030,7 @@ src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSI
 (link: "⬅ Πίσω")[(undo:)]
 
 
-:: Telemacus 1 {"position":"250,500","size":"100,100"}
+:: Telemacus 1 [Telemacus] {"position":"250,500","size":"100,100"}
 Σκηνή πρώτη
 Εσωτερικό - Τραπεζαρία
 Απόγευμα 
@@ -1058,7 +1062,7 @@ Telemacus: : Θα είχατε μήπως και οι υπόλοιποι την 
 (click: ?page)[(goto: "Orion 1")]
 
 
-:: Telemacus 2 {"position":"400,500","size":"100,100"}
+:: Telemacus 2 [Telemacus] {"position":"400,500","size":"100,100"}
 Σκηνή δεύτερη
 Εσωτερικό - Τραπεζαρία
 Απόγευμα 
@@ -1102,10 +1106,10 @@ Telemacus: Συγγνώμη για τη μουρμούρα μου. Άμα έχε
 
 //...μα τι... τι λέω;//
 
-(click: ?page)[(goto: "Orion 2")]
+(click: ?page)[(goto: "Orion 2")]<!--Comment Text-->
 
 
-:: Telemacus 3 {"position":"550,500","size":"100,100"}
+:: Telemacus 3 [Telemacus] {"position":"550,500","size":"100,100"}
 Σκηνή τρίτη
 Εσωτερικό - Τραπεζαρία
 Χρόνος: Άγνωστος
@@ -1173,8 +1177,15 @@ Telemacus: Μήπως να σταματήσουμε να κάνουμε τις �
 
 (click: ?page)[(goto: "Orion 3")]
 
+(track: 'Tired Room', 'fadeout', 0.2)
+(live:0.2s)[
+(stop:)
+(track: 'Confused', 'volume', 1)
+(track: 'Confused', 'loop', true)
+(track: 'Confused', 'play')]
 
-:: Telemacus 4 {"position":"700,500","size":"100,100"}
+
+:: Telemacus 4 [Telemacus] {"position":"700,500","size":"100,100"}
 Σκηνή τέταρτη
 Εσωτερικό - Τραπεζαρία
 Χρόνος: Άγνωστος
@@ -1223,7 +1234,7 @@ Telemacus: Λοιπόοον... θα έρθετε ή θα με αφήσετε ν�
 (click: ?page)[(goto: "Orion 4")]
 
 
-:: Telemacus 5 {"position":"850,500","size":"100,100"}
+:: Telemacus 5 [Telemacus] {"position":"850,500","size":"100,100"}
 Σκηνή Πέμπτη
 Εσωτερικό – Τραπεζαρία
 Χρόνος: Σταματημένος
@@ -1546,11 +1557,12 @@ Veronica:  Δεν μπορώ να το κάνω μόνη μου. Επιλέξτ�
 
 :: hal.config {"position":"225,50","size":"100,100"}
 showControls: false;
-preload: true;
+preload: false;
 
 
 :: hal.tracks {"position":"350,50","size":"100,100"}
 Tired Room: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Music/Bless This Morning Year.mp3
+Confused: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Music/Gomorin Dance.mp3
 
 
 :: μυστικό {"position":"450,725","size":"100,100"}
@@ -1666,6 +1678,11 @@ tw-passage {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+tw-story[tags~="Telemacus"] {
+    background-color: #2d1d10;
+    color: #f5e3c7;
 }
 
 
