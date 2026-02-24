@@ -10,7 +10,9 @@ Twine project
   "start": "Main Menu",
   "tag-colors": {
     "Telemacus": "yellow",
-    "Aethra": "red"
+    "Aethra": "red",
+    "Orion": "blue",
+    "Veronica": "purple"
   },
   "zoom": 1
 }
@@ -738,7 +740,7 @@ Nyx: <h5>Ακόμη κι αν χρειαστεί… κάποιος να μείν
 (click: ?page)[(goto: "Outro 1")]
 
 
-:: Orion {"position":"100,650","size":"100,100"}
+:: Orion [Orion] {"position":"100,650","size":"100,100"}
 <div class="nyx-wrapper">
 
     <h1>Orion</h1>
@@ -767,7 +769,7 @@ Nyx: <h5>Ακόμη κι αν χρειαστεί… κάποιος να μείν
 </div>
 
 
-:: Orion 1 {"position":"250,650","size":"100,100"}
+:: Orion 1 [Orion] {"position":"250,650","size":"100,100"}
 Σκηνή πρώτη
 Εσωτερικό - Τραπεζαρία
 Απόγευμα 
@@ -784,7 +786,7 @@ Orion: <h5>Παρεπιπτώντος, με λένε Orion, Βασιλιάς κ�
 (click: ?page)[(goto: "Aethra 1")]
 
 
-:: Orion 2 {"position":"400,650","size":"100,100"}
+:: Orion 2 [Orion] {"position":"400,650","size":"100,100"}
 Σκηνή δεύτερη
 Εσωτερικό - Τραπεζαρία
 Απόγευμα 
@@ -842,7 +844,7 @@ Orion: <h5>Για αυτό έχεις κομμάτι απο το γράμμα. �
 (track: 'Clock', 'play')
 
 
-:: Orion 3 {"position":"550,650","size":"100,100"}
+:: Orion 3 [Orion] {"position":"550,650","size":"100,100"}
 Σκηνή τρίτη
 Εσωτερικό — Σαλόνι
 Χρόνος: Άγνωστος
@@ -970,7 +972,7 @@ ORION:
 (track: 'Shadow', 'play')
 
 
-:: Orion 4 {"position":"700,650","size":"100,100"}
+:: Orion 4 [Orion] {"position":"700,650","size":"100,100"}
 Σκηνή τέταρτη
 Εσωτερικό — Σαλόνι
 Χρόνος: Άγνωστος
@@ -1007,7 +1009,7 @@ Orion: <h5>Χμ, δεν βλέπω την Veronica κάπου. Ξέρετε πο
 (click: ?page)[(goto: "Aethra 4")]
 
 
-:: Orion 5 {"position":"850,650","size":"100,100"}
+:: Orion 5 [Orion] {"position":"850,650","size":"100,100"}
 Σκηνή Πέμπτη
 Εσωτερικό — Σαλόνι
 Χρόνος: Άγνωστος
@@ -1090,11 +1092,11 @@ Orion: <h5>Θα πρέπει να είναι ο δαίμονας.</h5>
 κάψε τον κυρίαρχο πάνω μας.
 
 
-:: Telemacus {"position":"100,500","size":"100,100"}
+:: Telemacus [Telemacus] {"position":"100,500","size":"100,100"}
 <h1>(text-colour:#fbdf50)[(align:"=><=")+(box:"X")[Telemacus Rockeye]]</h1>
 <div>
 <p>(align:"=><=")+(box:"X")[(b4r-colour:#674d46)[(text-colour:#f5e7d0)[Ένας ανθρωπόμορφος αετός (aarakokra).
-Έχει καφέ πούπουλα και πορτοκαλό/καφέ μάτια. Φοράει μια σκούρο καφέ ρόμπα που μοιάζει λίγο με kimono και ταυτόχρονα στολή ιερέα. Το ρούχο του έχει μερικά ραμμένα σχήματα από ανοικτά μάτια στις άκρες τις ρόμπας που σχεδόν ακουμπάει το πάτωμα. Ορισμένες στρώσεις του ρούχου του είναι κάπως διάφανες (σχεδόν γυάλινες) και σε σημεία υπάρχουν σχηματισμένα μικρά γρανάζια.]]]</p></div>
+Έχει καφέ πούπουλα και πορτοκαλι/καφέ μάτια. Φοράει μια σκούρο καφέ ρόμπα που μοιάζει λίγο με kimono και ταυτόχρονα στολή ιερέα. Το ρούχο του έχει μερικά ραμμένα σχήματα από ανοικτά μάτια στις άκρες τις ρόμπας που σχεδόν ακουμπάει το πάτωμα. Ορισμένες στρώσεις του ρούχου του είναι κάπως διάφανες (σχεδόν γυάλινες) και σε σημεία υπάρχουν σχηματισμένα μικρά γρανάζια.]]]</p></div>
 
 <div>(align:"=><=")[<img class="tel-img"
 src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Telemacus (now).png" />]</div>
@@ -1331,13 +1333,13 @@ Telemacus: <h5>Αν δε σας είναι κόπος, θα ήθελα να έχ
 (click: ?page)[(goto: "Orion 5")]
 
 
-:: Veronica {"position":"100,350","size":"100,100"}
+:: Veronica [Veronica] {"position":"100,350","size":"100,100"}
 Εμφάνιση: Ένα απλό νέο κορίτσι με ανοιχτόχρωμο δέρμα και καστανόξανθα μαλλιά.Είναι ήρεμη και παρατηρεί αθόρυβα τον κόσμο γύρω της. Δείχνει αμήχανη και κουρασμένη.Φορά μια ολόσωμη φόρμα που πότε φωτίζεται και πότε σκοτεινιάζει.
 
  (link: "⬅ Πίσω")[(undo:)]
 
 
-:: Veronica 1 {"position":"250,350","size":"100,100"}
+:: Veronica 1 [Veronica] {"position":"250,350","size":"100,100"}
 Σκηνή πρώτη
 Εσωτερικό - Τραπεζαρία
 Απόγευμα 
@@ -1363,7 +1365,7 @@ Veronica:<h5>Πριν πούμε οτιδήποτε άλλο… θέλω να μ
 (click: ?page)[(goto: "Telemacus 1")]
 
 
-:: Veronica 2 {"position":"400,350","size":"100,100"}
+:: Veronica 2 [Veronica] {"position":"400,350","size":"100,100"}
 Σκηνή δεύτερη
 Εσωτερικό - Τραπεζαρία
 Απόγευμα 
@@ -1409,7 +1411,7 @@ Veronica:<h5>Το φως…είναι πάνω στον ρούνο ή δίπλα
 (click: ?page)[(goto: "Telemacus 2")]
 
 
-:: Veronica 3 {"position":"550,350","size":"100,100"}
+:: Veronica 3 [Veronica] {"position":"550,350","size":"100,100"}
 Σκηνή τρίτη
 Εσωτερικό - Τραπεζαρία
 Χρόνος: Άγνωστος
@@ -1435,7 +1437,7 @@ Veronica: <h5>Εδώ… ξέρω ότι είμαι προστατευμένη.</
 (click: ?page)[(goto: "Telemacus 3")]
 
 
-:: Veronica 4 {"position":"700,350","size":"100,100"}
+:: Veronica 4 [Veronica] {"position":"700,350","size":"100,100"}
 Σκηνή τέταρτη
 Εσωτερικό - Τραπεζαρία
 Χρόνος: Άγνωστος
@@ -1502,7 +1504,7 @@ Veronica (χαμηλά):<h6>Αν τον σπάσουμε…ίσως ελευθε
 (click: ?page)[(goto: "Telemacus 4")]
 
 
-:: Veronica 5 {"position":"850,350","size":"100,100"}
+:: Veronica 5 [Veronica] {"position":"850,350","size":"100,100"}
 Σκηνή Πέμπτη
 Εσωτερικό – Τραπεζαρία
 Χρόνος: Σταματημένος
@@ -1626,7 +1628,7 @@ Shadow: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MAN
 Witchy: https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Music/The Host of Seraphim.mp3
 
 
-:: μυστικό {"position":"450,725","size":"100,100"}
+:: μυστικό [Orion] {"position":"450,725","size":"100,100"}
 Orion:<h6>Nyx, ο Orion είμαι, πρέπει να σου πω κάτι χωρίς να το ακούσουν οι υπόλοιποι.</h6>
 
 Ο δαίμονας της ισορροπίας δεν είναι απλώς ένας μύθος· είναι ένα νεκροζώντανο πλάσμα, μισό πεθαμένο και μισό ζωντανό, γεννημένο από τα έγκατα της γης. Η ιστορία του είναι ατελείωτη κι όσο μεγαλώνω, τόσο περισσότερο πιστεύω πως η οικογένειά μου ευθύνεται για τη δύναμη που απέκτησε.
@@ -1783,6 +1785,13 @@ tw-story[tags~="Aethra"] {
     color: #f3f2f3;
 }
 
+tw-story[tags~="Orion"] {
+    background-color: #070738;
+}
+
+tw-story[tags~="Veronica"] {
+    background-color: #483248;
+}
 
 /**
  * Harlowe Audio Library (HAL), by Chapel, v2.3.0
