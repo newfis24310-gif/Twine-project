@@ -1796,6 +1796,10 @@ h5{
 tw-story[tags~="Telemacus"] {
     background-color: #23150a;
     color: #f5e7d0;
+  	background-image: url("https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Tel-Background.png");
+  	background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 tw-story[tags~="Aethra"] {
