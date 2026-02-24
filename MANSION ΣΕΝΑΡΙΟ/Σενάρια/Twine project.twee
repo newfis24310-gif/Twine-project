@@ -1337,6 +1337,11 @@ Telemacus: <h5>Αν δε σας είναι κόπος, θα ήθελα να έχ
 Εμφάνιση: Ένα απλό νέο κορίτσι με ανοιχτόχρωμο δέρμα και καστανά μαλλιά.Είναι ήρεμη και παρατηρεί αθόρυβα τον κόσμο γύρω της. Δείχνει αμήχανη και κουρασμένη.Φορά μια ολόσωμη φόρμα που πότε φωτίζεται και πότε σκοτεινιάζει.
 
 
+(align:"=><=")[
+  <img class="veronica-img" src="https://github.com/newfis24310-gif/Twine-project/raw/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Veronica.png">
+]
+
+
 
 
  (link: "⬅ Πίσω")[(undo:)]
@@ -1347,7 +1352,9 @@ Telemacus: <h5>Αν δε σας είναι κόπος, θα ήθελα να έχ
 Εσωτερικό - Τραπεζαρία
 Απόγευμα 
 ---------------------------
-
+(align:"=><=")[
+  <img class="veronica-img" src="https://github.com/newfis24310-gif/Twine-project/raw/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Veronica_s.png">
+]
 
 <span class="highlight">//Γιατί βρισκόμαστε γύρω από ένα μεγάλο τραπέζι?
 Δεν γνωρίζω κανέναν από τους υπόλοιπους.
@@ -1374,7 +1381,9 @@ Veronica:<h5>Πριν πούμε οτιδήποτε άλλο… θέλω να μ
 Απόγευμα 
 ---------------------------
 
-
+(align:"=><=")[
+  <img class="veronica-img" src="https://github.com/newfis24310-gif/Twine-project/raw/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Veronica_s.png">
+]
 
 Όλοι σκύβουνε  κάτω από το τραπέζι.
 Το πάτωμα τραβά τα βλέμματα περισσότερο απ’ όσο θα έπρεπε.
@@ -1419,7 +1428,9 @@ Veronica:<h5>Το φως…είναι πάνω στον ρούνο ή δίπλα
 Εσωτερικό - Τραπεζαρία
 Χρόνος: Άγνωστος
 ---------------------------
-
+(align:"=><=")[
+  <img class="veronica-img" src="https://github.com/newfis24310-gif/Twine-project/raw/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Veronica_s.png">
+]
 
 Το χτύπημα στην πόρτα έχει σταματήσει. Αυτό δεν σημαίνει ότι έφυγε κάτι. Μόνο ότι περιμένει. Ο χώρος μοιάζει να κρατά την ανάσα του. Οι σκιές μακραίνουν και μαζεύονται χαμηλά, εκεί όπου το φως των κεριών δεν φτάνει καθαρά.
 
@@ -1445,7 +1456,9 @@ Veronica: <h5>Εδώ… ξέρω ότι είμαι προστατευμένη.</
 Εσωτερικό - Τραπεζαρία
 Χρόνος: Άγνωστος
 ---------------------------
-
+(align:"=><=")[
+  <img class="veronica-img" src="https://github.com/newfis24310-gif/Twine-project/raw/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Veronica_s.png">
+]
 
 Το τραπέζι έχει μετακινηθεί.
 Ο ρούνος φαίνεται ολόκληρος τώρα.
@@ -1512,7 +1525,9 @@ Veronica (χαμηλά):<h6>Αν τον σπάσουμε…ίσως ελευθε
 Εσωτερικό – Τραπεζαρία
 Χρόνος: Σταματημένος
 ---------------------------
-
+(align:"=><=")[
+  <img class="veronica-img" src="https://github.com/newfis24310-gif/Twine-project/raw/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Veronica_s.png">
+]
 
 Το φως και η σκιά συγκρούονται και μετά… παγώνουν.
 Οι φλόγες μένουν ακίνητες στον αέρα.
@@ -1793,7 +1808,15 @@ tw-story[tags~="Orion"] {
 }
 
 tw-story[tags~="Veronica"] {
-    background-color: #483248;
+    background-color: #301934;
+}
+
+.veronica-img{
+  width: 50%;
+  max-width: 420px;
+  height: auto;
+  display: block;
+  margin: 12px 0 12px 18%;
 }
 
 /**
