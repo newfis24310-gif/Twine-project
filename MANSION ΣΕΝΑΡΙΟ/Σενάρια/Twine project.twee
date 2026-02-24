@@ -1093,13 +1093,13 @@ Orion: <h5>Θα πρέπει να είναι ο δαίμονας.</h5>
 
 
 :: Telemacus [Telemacus] {"position":"100,500","size":"100,100"}
-<h1>(text-colour:#fbdf50)[(align:"=><=")+(box:"X")[Telemacus Rockeye]]</h1>
+<div><h1>(text-colour:#fbdf50)[(align:"=><=")+(box:"X")[Telemacus Rockeye]]</h1>
 <div>
 <p>(align:"=><=")+(box:"X")[(b4r-colour:#674d46)[(text-colour:#f5e7d0)[Ένας ανθρωπόμορφος αετός (aarakokra).
 Έχει καφέ πούπουλα και πορτοκαλι/καφέ μάτια. Φοράει μια σκούρο καφέ ρόμπα που μοιάζει λίγο με kimono και ταυτόχρονα στολή ιερέα. Το ρούχο του έχει μερικά ραμμένα σχήματα από ανοικτά μάτια στις άκρες τις ρόμπας που σχεδόν ακουμπάει το πάτωμα. Ορισμένες στρώσεις του ρούχου του είναι κάπως διάφανες (σχεδόν γυάλινες) και σε σημεία υπάρχουν σχηματισμένα μικρά γρανάζια.]]]</p></div>
 
 <div>(align:"=><=")[<img class="tel-img"
-src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Telemacus (now).png" />]</div>
+src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Telemacus (now).png" />]</div></dv>
 
 (enchant:?page,(bg:#23150a))
 (link: "⬅ Πίσω")[(undo:)]
@@ -1111,7 +1111,8 @@ src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSI
 Απόγευμα 
 ---------------------------
 
-
+<div>(align:"=><=")[<img class="tel-sym"
+src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/TelSymbol.png" />]</div>
 <span class="highlight">//Ώστε εδώ με έφερε. Απ' ότι φαίνεται δεν είμαι μόνος μου. Περίεργη αρχή, συνήθως τα μέρη που εμφανίζομαι είναι κάπως απομονωμένα.
 
 Χμμ, φαίνονται όλοι αρκετά νέοι. Αλλά σίγουρα δεν κολλάνε. Μάλλον βρίσκομαι σε κάποια έπαυλη; Όμως οι περισσότεροι μοιάζουν εκτός θέματος. Πω πω την καημένη, λες και την έφαγε αρκούδα είναι. Δε πολυμιλούσαν κιόλας μέχρι τώρα. Ίσως είναι ασφαλές να πιστέψω ότι ταξίδεψαν μέχρι εδώ και δεν έχουν να κάνουν άμεσα με τον χώρο.
@@ -1144,7 +1145,8 @@ Telemacus: : <h5>Θα είχατε μήπως και οι υπόλοιποι τ�
 Απόγευμα 
 ---------------------------
 
-
+<div>(align:"=><=")[<img class="tel-sym"
+src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/TelSymbol.png" />]</div>
 Telemacus;<h5>Χμμ, δώσε μου ένα λεπτό...</h5>
 Για άλλη μια φορά σκύβω κάτω απ' το τραπέζι, όμως ο ρούνος είναι απλά χαραγμένος στο πάτωμα.
 
@@ -1180,7 +1182,7 @@ Telemacus: <h5>Συγγνώμη για τη μουρμούρα μου. Άμα έ
 
 <span class="highlight">//...μα τι... τι λέω;//</span>
 
-(click: ?page)[(goto: "Orion 2")]<!--Comment Text-->
+(click: ?page)[(goto: "Orion 2")]<!--Comment Text-->''Bold Text''
 
 
 :: Telemacus 3 [Telemacus] {"position":"550,500","size":"100,100"}
@@ -1189,7 +1191,8 @@ Telemacus: <h5>Συγγνώμη για τη μουρμούρα μου. Άμα έ
 Χρόνος: Άγνωστος
 ---------------------------
 
-
+<div>(align:"=><=")[<img class="tel-sym"
+src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/TelSymbol.png" />]</div>
 <span class="highlight">//Ok, τι στον κόρακα συμβαίνει; Βασικά, κρίμα να μιλάω έτσι για τα αδέρφια κοράκια. Απ' ότι φαίνεται όλοι ξέρουν από κάτι που δεν ξέρω; Ίσως τελικά να μην είναι και η καλύτερη ιδέα να τους εμπιστευτώ, αλλά μάλλον δεν έχω και πολλές επιλογές. Επιπλέον... έτσι όπως τους κόβω δε φαίνεται να ομολογήσουν και πολλά.
 
 Δε μπορώ να πιστέψω ότι ήρθα μόνος μου! Μα τι σκεφτόμουν;
@@ -1271,7 +1274,8 @@ Telemacus: <h5>Μήπως να σταματήσουμε να κάνουμε τι
 Χρόνος: Άγνωστος
 ---------------------------
 
-
+<div>(align:"=><=")[<img class="tel-sym"
+src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/TelSymbol.png" />]</div>
 <span class="highlight">//Ένας προστατευτικός ρούνος; Κάποια εξωτερική δύναμη απ' την οποία μας προστατεύει; Περίεργο σκηνικό έφτιαξε ο Evergreen. Αν το έφτιαξε αυτός...
 
 (text-style:"rumble")[ΑΑΑΑΑ]. Δε καταλαβαίνω ακριβώς τι συμβαίνει.//</span>
@@ -1314,7 +1318,8 @@ Telemacus: <h5>Λοιπόοον... θα έρθετε ή θα με αφήσετε
 Χρόνος: Σταματημένος
 ---------------------------
 
-
+<div>(align:"=><=")[<img class="tel-sym"
+src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/TelSymbol.png" />]</div>
 Telemacus: <h5>Αχα... ό,τι πεις τρελό κοριτσάκι. Δεν είναι ότι έχουμε και πολλές επιλογές.</h5>
 Πηγαίνω προς ένα από τα τέσσερα σημεία που μας δείχνει το φως.
 
