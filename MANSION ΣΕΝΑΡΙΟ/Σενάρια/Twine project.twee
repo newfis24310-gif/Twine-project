@@ -1060,7 +1060,7 @@ Orion: <h5>Θα πρέπει να είναι ο δαίμονας.</h5>
 Θα μπορούσε να πει κανείς ότι το 4 είναι ισορροπημένος αριθμός.
 
 (click: ?page)[(goto: "Outro 2")]
-(track: 'Magic', 'fadeout', 8)
+(track: 'Magic', 'fadeout', 20)
 (track: 'Rain', 'fadeout', 4)
 
 
