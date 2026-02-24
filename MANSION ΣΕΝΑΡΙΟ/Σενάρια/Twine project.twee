@@ -1067,7 +1067,7 @@ Orion: <h5>Θα πρέπει να είναι ο δαίμονας.</h5>
 
 :: Outro 2 {"position":"1000,475","size":"100,100"}
 (align:"=><=")+(box:"X")[<h1>The End</h1>
-<div>(align:"=><=")[<img src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/End candles.png" />]</div></dv>
+<div><img class="end-img" src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/End candles.png" /></div>
 
 [[Relive|Intro]]]
 
@@ -1727,7 +1727,7 @@ tw-passage {
 }
 
 tw-link {
-  color: darkgreen;
+  color: #1b7225;
 }
 
 tw-link:hover {
@@ -1796,6 +1796,15 @@ h5{
     width:50%;
     height:50%
     border-radius:12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.end-img{
+    position:relative;
+    width:100%;
+    height:100%
     display: block;
     margin-left: auto;
     margin-right: auto;
