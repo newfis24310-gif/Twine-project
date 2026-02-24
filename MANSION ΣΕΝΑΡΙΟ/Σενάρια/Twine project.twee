@@ -1060,7 +1060,7 @@ Orion: <h5>Θα πρέπει να είναι ο δαίμονας.</h5>
 
 Θα μπορούσε να πει κανείς ότι το 4 είναι ισορροπημένος αριθμός.
 
-(click: ?page)[(goto: "Outro 2")]
+(click: ?page)[(t8n-depart:"instant")+(t8n-arrive:"dissolve")+(t8n-time:5s)(goto: "Outro 2")]
 (track: 'Magic', 'fadeout', 20)
 (track: 'Rain', 'fadeout', 4)
 
@@ -1103,7 +1103,6 @@ Orion: <h5>Θα πρέπει να είναι ο δαίμονας.</h5>
 <div>(align:"=><=")[<img class="tel-img"
 src= "https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Telemacus (now).png" />]</div></dv>
 
-(enchant:?page,(bg:#23150a))
 (link: "⬅ Πίσω")[(undo:)]
 
 
