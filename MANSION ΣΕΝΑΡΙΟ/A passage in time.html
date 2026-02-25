@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Twine project.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Twine project" startnode="8" creator="Twine" creator-version="2.9.0" format="Harlowe" format-version="3.3.9" ifid="B2397DCC-258F-4AD2-9BCD-49F0B4978B62" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
+<tw-storydata name="Twine project" startnode="8" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="B2397DCC-258F-4AD2-9BCD-49F0B4978B62" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
     max-width: 100% !important;
 }
 
@@ -134,6 +134,10 @@ tw-story[tags~="Veronica"] {
     background-color: #301934;
 }
 
+tw-story[tags~="Nyx"] {
+    background-color: #46354f;
+}
+
 .veronica-img{
   width: 50%;
   max-width: 420px;
@@ -154,7 +158,7 @@ tw-story[tags~="Veronica"] {
  * Released under the Unlicense, and dedicated to the public domain.
 **/
 ;!function(e){(jQuery.browser=jQuery.browser||{}).mobile=/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(e)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(e.substr(0,4))}(navigator.userAgent||navigator.vendor||window.opera),function(){"use strict";window.Fast={filter:function(e,t){for(var o=e.length,n=[],a=0;a<o;a++)t(e[a],a,e)&&n.push(e[a]);return n},forEach:function(e,t){for(var o=e.length,n=0;n<o;n++)t(e[n],n,e)},map:function(e,t){for(var o=e.length,n=new Array(o),a=0;a<o;a++)n[a]=t(e[a],a,e);return n},find:function(e,t){for(var o=e.length,n=0;n<o;n++)if(t(e[n],n,e))return e[n]},findIndex:function(e,t){for(var o=e.length,n=0;n<o;n++)if(t(e[n],n,e))return n;return-1},some:function(e,t){for(var o=e.length,n=0;n<o;n++)if(t(e[n],n,e))return!0;return!1}}}(),window.Chapel=window.Chapel||{},window.Chapel.options={preload:!0,loadDelay:0,muteOnBlur:!0,startingVol:.5,persistPrefs:!0,globalA:!0,showControls:!0,sidebarStartClosed:!0,volumeDisplay:!1,trackLoadLimit:500,totalLoadLimit:8e3,debug:!1},window.Chapel.debug=function(){Chapel.options.debug&&console.log.apply(null,arguments)},function(){"use strict";var n=$("tw-storydata"),o=/(.+?):(.+)/,t=/[\r\n]+/,a=/^["']/,r=/["']$/;function e(e){return Fast.map(Fast.filter(e.split(t),function(e){return e&&e.trim()&&e.includes(":")}),function(e){return e.trim()})}function i(e){return e.trim().replace(a,"").replace(r,"").trim()}function s(e){var t=e.match(o);return t instanceof Array?{key:i(t[1]),value:i(t[2])}:e}var u,l,c,p=n.find('tw-passagedata[name="hal.tracks"]'),d=null,p=(p.length&&(p=e(p.text()),u=[],l=[],Fast.forEach(p,function(e){var e=s(e);"string"==typeof e&&l.push(e),u.push([e.key,(e=e.value,Fast.map(e.split(","),i))])}),l.length&&console.error("Some track definitions could not be parsed:\n"+l.join("\n")+"\nPlease check these definitions and try again."),d=new Map(u)),n.find('tw-passagedata[name="hal.config"]')),m=null;function f(e){var t=n.attr("format-version");if(e)return t;var e=t.split("."),t=e[0],o=e[1],e=e[2],t=Number(t),o=Number(o);return[t=(t=Number.isNaN(t)?3:t)<1?3:t,o=Number.isNaN(o)?3:o,e=Number.isNaN(e)?0:e]}function h(){var e=f();return!(3<=e[0]&&3<=e[1])}function g(t){return function(){var e=[].slice.call(arguments).slice(1),e=t.apply(null,e);return"string"==typeof e||"boolean"==typeof e||"number"==typeof e?e:""}}p.length&&(p=e(p.text()),c={},Fast.forEach(Fast.map(p,function(e){return s(e)}),function(e){c[e.key]=e.value}),m=c),m&&Fast.forEach(Object.keys(m),function(e){var t=e,o=c[e],e=typeof Chapel.options[e];"boolean"==e?"true"===o?Chapel.options[t]=!0:"false"===o&&(Chapel.options[t]=!1):"number"==e?(o=Number(o),Number.isNaN(o)||(Chapel.options[t]=o)):"string"==e&&o&&(Chapel.options[t]=o)});var y=require("macros");if(window.Chapel=window.Chapel||{},window.Chapel.Macros={add:function(o){o&&"object"==typeof o&&Fast.forEach(Object.keys(o),function(e){var t;t=o[e=e],h()?y.add(e,g(t),y.TypeSignature.zeroOrMore(y.TypeSignature.Any)):y.add(e,"Any",g(t),y.TypeSignature.zeroOrMore(y.TypeSignature.Any))})}},window.Chapel.Get=Object.freeze({version:f(),isHarlowe3OrLater:3<=f()[0],storyTitle:n.attr("name"),IFID:n.attr("ifid"),useOldMacroAPI:h(),fromPassage:d}),Chapel.debug("Harlowe Version -> ",Chapel.Get.version.join(".")),Chapel.debug("Harlowe Major Version -> ",Chapel.Get.version[0]),Chapel.debug("Story Title -> ",Chapel.Get.storyTitle),Chapel.debug("Story IFID -> ",Chapel.Get.IFID),Chapel.Get.version[0]<2)throw new Error("The Harlowe Audio Library is only designed to work with Harlowe 2 and 3; you appear to be using Harlowe 1 or an otherwise invalid story format.","get.js -> initialization",176);Chapel.options.storagekey="%%hal-"+Chapel.Get.IFID+"-{"+Chapel.Get.storyTitle+"}",Chapel.debug("Storage Key -> ",Chapel.options.storagekey)}(),function(){"use strict";var t=Chapel.options,e=function(e,t){if(window.localStorage)try{e=""+e,"string"!=typeof t&&(t=JSON.stringify(t)),window.localStorage.setItem(e,t)}catch(e){console.error(e)}},o=function(e){if(window.localStorage)try{return e=""+e,window.localStorage.getItem(e)}catch(e){console.error(e)}},n=function(e){if(window.localStorage)try{e=""+e,window.localStorage.removeItem(e)}catch(e){console.error(e)}},a={loaded:[],classes:{},master:{volume:t.startingVol,mute:!1},groups:{playing:[],looping:[],custom:{}},mute:function(e){a.master.mute=!!e,$(document).trigger({type:":master-mute",mute:!!e})},isMuted:function(){return!!a.master.mute},volume:function(e){e=Number(e),Number.isNaN(e)||(1<e?e=1:e<0&&(e=0),a.master.volume=e),$(document).trigger({type:":master-volume",volume:e})},getVolume:function(){return a.master.volume},stopAll:function(){a.classes.Track&&Fast.forEach(a.classes.Track.list,function(e){e.stop()})},audioPlaying:function(){return!!a.groups.playing.length},savePrefs:function(){e(t.storagekey,a.master)},loadPrefs:function(){var e=o(t.storagekey);e&&"object"==typeof e&&e.hasOwnProperty("volume")&&"number"==typeof e.volume&&e.hasOwnProperty("mute")&&"boolean"==typeof e.volume&&(delete a.master,a.master=e)},clearPrefs:function(){n(t.storagekey)}},r={track:[":available",":loaded",":play",":stop",":mute",":volume"],master:[":master-mute",":master-volume"]};var i=r.track.concat(r.master);function s(e,t){if(!e||"string"!=typeof e||!e.trim())return null;e=Fast.filter(Fast.map(e.split(" "),function(e){return(e=":"!==(e=e.split(".")[0])[0]?":"+e:e)+".userland"}),function(e){return(t?i:r.track).includes(e)}).join(" ");return e&&e.trim()?e:null}a.data={parseEvent:s,bail:function(e){throw new Error(e,"audio.js -> bail()",140)}},a.on=function(e,t){t&&"function"==typeof t?(e=s(e,!0))&&$(document).on(e,t):console.error("Chapel.Audio.on() -> invalid callback")},a.one=function(e,t){t&&"function"==typeof t?(e=s(e,!0))&&$(document).one(e,t):console.error("Chapel.Audio.one() -> invalid callback")},a.off=function(e){(e=s(e,!0))&&$(document).off(e)},t.persistPrefs&&($(document).on(":master-mute",a.savePrefs),$(document).on(":master-volume",a.savePrefs)),$(document).on(":play",function(e){e.track.addToGroup("playing")}),$(document).on(":stop",function(e){e.track.removeFromGroup("playing")}),t.muteOnBlur&&$(window).on("blur",function(){a.isMuted()||(a.mute(!0),$(window).one("focus",function(){a.mute(!1)}))}),a.parseEvent=s,window.Chapel=window.Chapel||{},window.Chapel.Audio=a}(),function(){"use strict";var a=Chapel.Audio,o=a.data.pareEvent,r=a.data.bail,i=Chapel.options,t=$(document.createElement("div")).attr("id","audio-container").css("display","none").appendTo(document.body),s={aac:"audio/aac",caf:"audio/x-caf","x-caf":"audio/x-caf",mp3:'audio/mpeg; codecs="mp3"',mpeg:'audio/mpeg; codecs="mp3"',m4a:"audio/mp4",mp4:"audio/mp4","x-m4a":"audio/mp4","x-mp4":"audio/mp4",oga:"audio/ogg",ogg:"audio/ogg",opus:'audio/ogg; codecs="opus"',wav:"audio/wav",wave:"audio/wav",weba:"audio/webm",webm:"audio/webm"};function u(e,t,o){this instanceof u||r("Track: called without `new` operator"),e||r("Track: no id specified"),"string"!=typeof e&&r("Track: track id is not a string"),t&&(!Array.isArray(t)||t.length)||r("Track: no sources specified"),o?t=[].slice.call(arguments).slice(1):"string"==typeof t&&(t=[t]);var n=$(document.createElement("audio"));Fast.forEach(t,function(e){$(document.createElement("source")).attr({src:e,type:(e=(e=(e=(e=(e=e).split("."))[e.length-1]).includes("?")?e.split("?")[0]:e).toLowerCase().trim(),Object.keys(s).includes(e)||r('Track: unsupported file type "'+e+'"'),s[e])}).appendTo(n)}),n.attr({"data-track":"id","data-volume":1,"data-mute":!1}).one("canplaythrough.hal",function(){a.loaded.push(e)}),i.preload&&n.attr("preload","auto"),n[0].volume=+a.master.volume,this.id=e,this.$el=n,this.unwrap=n[0],this.sources=t}Object.assign(u,{list:[],is:function(e){return e instanceof u},has:function(t){return Fast.some(u.list,function(e){return e.id===t})},emit:function(e,t){$(document).trigger({type:e,track:t}),t.emit(e)},add:function(e,t,o){var n=new u(e,t=o?[].slice.call(arguments).slice(1):t);return u.list.push(n),n.$el.on("canplay",function(){u.emit(":available",n)}),n.$el.on("canplaythrough",function(){u.emit(":loaded",n)}),n.attach(),n},renew:function(){Fast.forEach(u.list,function(e){e.mute(e.isMuted()),e.volume(e.getVolume())})},getIdx:function(t){return Fast.findIndex(u.list,function(e){return e.id===t})},get:function(t){var e=Fast.find(u.list,function(e){return e.id===t});if(e)return e;throw new ReferenceError('There is no track with the id "'+t+'". Please check your spelling and capitalization.',"track.js -> Track.get()",155)},removeFromDOM:function(e){(e="string"==typeof e?u.get(e):e)&&u.is(e)?e.unattach():t.remove()},_runOnMultiple:function(e,t,o){e instanceof Array&&u.prototype.hasOwnProperty(t)&&Fast.forEach(e,function(e){(e=u.is(e)?e:u.get(e)||null)&&e[t].apply(e,o&&o instanceof Array?o:[])})}}),Object.assign(u.prototype,{constructor:u,emit:function(e){this.$el.trigger({type:e,track:this})},clone:function(){return new u(this.id,this.sources)},isAttached:function(){return $.contains(t[0],this.unwrap)},attach:function(){return this.isAttached()||this.$el.appendTo(t),this},unattach:function(){return this.isAttached()&&this.$el.remove(),this},isPlaying:function(){return!this.unwrap.paused},play:function(){var e=this;return this.unwrap.play(),u.emit(":play",this),this.$el.on("ended",function(){e.unwrap.loop||(e.unwrap.currentTime=0,u.emit(":stop",e))}),this},playWhenPossible:function(){var t=this;return this.unwrap.play().then(function(){u.emit(":play",t),t.$el.on("ended",function(){t.unwrap.loop||(t.unwrap.currentTime=0,u.emit(":stop",t))})},function(e){$(document).one("click mousedown keydown touchstart",function(){t.play()})}).catch(function(e){console.error(e)}),this},forcePlay:function(){var e=this,t=$(document.createElement("a")).css("display","none").appendTo(document.body).on("click",function(){e.play()});setTimeout(function(){t.trigger("click")},safeAudioStart)},pause:function(){return this.unwrap.pause(),u.emit(":pause",this),this},stop:function(){return this.unwrap.pause(),this.unwrap.currentTime=0,u.emit(":stop",this),this},mute:function(e){return this.$el.attr("data-mute",e=!!e),a.master.mute?this.unwrap.muted=!0:this.unwrap.muted=e,u.emit(":mute",this),this},isMuted:function(){var e=this.$el.attr("data-mute");return"boolean"==typeof e?e:"false"!==e},toggleMute:function(){return this.mute(!this.isMuted()),this},volume:function(e){return e=Number(e),Number.isNaN(e)||(1<e?e=1:e<0&&(e=0),this.$el.attr("data-volume",e),this.unwrap.volume=e*a.master.volume),u.emit(":volume",this),this},getVolume:function(){return Number(this.$el.attr("data-volume"))},addToGroup:function(e,t){var o=this,t=(t?a.groups.custom:a.groups)[e];return Fast.some(t,function(e){return o.id===e.id})||t.push(this),this},removeFromGroup:function(e,t){var o=this,t=(t?a.groups.custom:a.groups)[e],e=Fast.findIndex(t,function(e){return e.id&&e.id===o.id});return t.splice(e,1),this},loop:function(e){return this.unwrap.loop=!!e,this.unwrap.loop?this.addToGroup("looping"):this.removeFromGroup("looping"),this},isLooping:function(){return!!this.unwrap.loop},toggleLoop:function(){return this.loop(!this.isLooping()),this},seek:function(e){return e<0?e=this.unwrap.duration-e:e>this.unwrap.duration&&(e=this.unwrap.duration),this.unwrap.currentTime=e,this},fadeIn:function(e){var t=this,o=(e=e||1,this.getVolume());return this.volume(0),this.play(),this.$el.animate({volume:o*a.master.volume},1e3*e,function(){t.volume(o),u.emit(":volume",t),u.emit(":fade",t)}),this},fadeOut:function(e){e=e||1;var t=this,o=this.getVolume();return this.$el.animate({volume:0},1e3*e,function(){t.stop(),t.volume(o),u.emit(":volume",t),u.emit(":fade",t)}),this},fadeTo:function(e,t){var o=this;if(e=e||1,t=Number(t),!Number.isNaN(t))return 1<t?t=1:t<0&&(t=0),this.$el.animate({volume:t*a.master.volume},1e3*e,function(){o.volume(t),u.emit(":volume",o),u.emit(":fade",o)}),this;alert("ivalid volume level")},delay:function(e,t){var o=this;"function"==typeof t&&(e=Number(e),(Number.isNaN(e)||e<0)&&(e=0),setTimeout(function(){t.call(o,o,e)},e))},on:function(e,t){if(!t||"function"!=typeof t)return console.error("<track>.on() -> invalid callback"),this;(e=o(e))&&this.$el.on(e,t)},one:function(e,t){if(!t||"function"!=typeof t)return console.error("<track>.one() -> invalid callback"),this;(e=o(e))&&this.$el.one(e,t)},off:function(e){(e=o(e))&&this.$el.off(e)}}),a.classes.Track=u,a.newTrack=function(){try{return u.add.apply(null,arguments)}catch(e){console.error(e.message),alert("Error in A.newTrack() -> see the console for more information.")}},a.track=function(e){try{return u.get(e)}catch(e){console.error(e.message),alert("Error in A.track() -> see the console for more information.")}},$(document).on(":master-mute",u.renew),$(document).on(":master-volume",u.renew)}(),function(){"use strict";var n=Chapel.Audio,a=n.classes.Track,o=(n.data._extend,/(play)?list:(.+)/i);n.createGroup=function(e,t,o){o=o?[].slice.call(arguments).slice(1):t;t=e,(e=o)&&Array.isArray(e)||(e=[]),n.groups.custom[t]=Fast.map(e,function(e){return a.get(e)})},n.group=function(e){if(!(this instanceof n.group))return new n.group(e);if(Object.keys(n.groups.custom).includes(e))this.members=n.groups.custom[e];else{if(!(n.groups[e]&&n.groups[e]instanceof Array))throw new ReferenceError('There is no group with the id "'+id+'". Please check your spelling and capitalization.',"group.js -> A.group()",29);this.members=n.groups[e]}var t;o.test(e)&&(t=e.match(o)[2])&&t.trim()&&(this.members=n.playlist(t).tracks),Array.isArray(this.members)||(this.members=[],console.error('Could not find members for track group "'+e+'"!'))},Object.assign(n.group,{is:function(e){return this instanceof n.group},_runOnAll:function(e,t,o,n){null!=n?o=[].slice.call(arguments).slice(2):o instanceof Array||(o=[o]);n=[e.members,t,o];a._runOnMultiple.apply(null,n)}}),Object.assign(n.group.prototype,{constructor:n.group,_run:function(){n.group._runOnAll.apply(null,[this].concat([].slice.call(arguments)))},play:function(){return this._run("play"),this},pause:function(){return this._run("pause"),this},stop:function(){return this._run("stop"),this},mute:function(e){return this._run("mute",e),this},volume:function(e){return this._run("volume",e),this},loop:function(e){return this._run("loop",e),this}})}(),function(){"use strict";var e=Chapel.Audio,a=e.classes.Track;e.data._extend;function n(e,t){if(!(this instanceof n))return new n(e,t);this.id=e,this.tracks=t.map(function(e){return a.get(e)}),this.looping=!1,this.current="",this.playing=!1}Object.assign(n,{list:{},is:function(e){return e instanceof n},add:function(e,t,o){return o&&(t=[].slice.call(arguments).slice(1)),n.list[e]=new n(e,t),n.list[e]},_runOnAll:function(e,t,o,n){null!=n?o=[].slice.call(arguments).slice(2):o instanceof Array||(o=[o]);n=[e.tracks,t,o];a._runOnMultiple.apply(null,n)}}),Object.assign(n.prototype,{constructor:n,clone:function(){return new n(this.id,this.tracks.map(function(e){return e.id}))},_run:function(){n._runOnAll.apply(null,[this].concat([].slice.call(arguments)))},volume:function(e){return this._run("volume",e),this},mute:function(e){return this._run("mute",e),this},shuffle:function(){for(var e,t,o=this.tracks,n=o.length-1;0<n;n--)e=Math.floor(Math.random()*(n+1)),t=o[n],o[n]=o[e],o[e]=t;return this.tracks=o,this},random:function(){return this.tracks[Math.floor(Math.random()*this.tracks.length)]},isPlaying:function(){return this.playing},nowPlaying:function(){return a.get(this.current)},play:function(e){var t=this;if((e=e||(t.current?Fast.findIndex(t.tracks,function(e){return e.id===t.current}):0))>=t.tracks.length&&t.looping)e=0;else if(e>=t.tracks.length)return t.current="",void(t.playing=!1);var o=t.tracks[e],n=o.isLooping();return o.loop(!1),o.play(),t.playing=!0,setTimeout(function(){o.isPlaying()||(t.playing=!1)},20),t.current=o.id,o.$el.one("ended.playlist",function(){e++,o.loop(n),t.play(e)}),t},loop:function(e){return this.looping=!!e,this},isLooping:function(){return this.looping},stop:function(){var e;return this.current&&this.isPlaying()?(e=this.nowPlaying())&&(e.stop(),e.$el.off(".playlist")):this._run("stop"),this.current="",this.playing=!1,this},pause:function(){var e;return this.current&&this.isPlaying()&&((e=this.nowPlaying())&&e.pause()),this.playing=!1,this}}),e.classes.Playlist=n,e.createPlaylist=function(){try{n.add.apply(null,arguments)}catch(e){console.error(e.message),alert("Error in A.createPlaylist() -> see the console for more information.")}},e.playlist=function(e){try{var t=n.list[e]||null;if(t)return t;throw new ReferenceError('There is no playlist with the id "'+e+'". Please check your spelling and capitalization.',"list.js -> A.playlist()",171)}catch(e){console.error(e.message),alert("Error in A.createPlaylist() -> see the console for more information.")}}}(),function(){"use strict";var t=Chapel.Audio,o=t.classes.Track,n=t.classes.Playlist;function a(t,o){if("object"!=typeof o)throw new TypeError("Invalid extension.","extensions.js -> _extend()",8);Fast.forEach(Object.keys(o),function(e){if(void 0!==t[e])throw new Error('Invalid extension: cannot clobber existing property "'+e+'".',"extensions.js -> _extend()",8);t[e]=o[e]})}t.extend=function(e){a(Audio,e)},o.extend=function(e){a(o,e)},o.extendPrototype=function(e){a(o.prototype,e)},t.extendTrack=o.extend,t.extendTrackProto=o.extendPrototype,t.group.extend=function(e){a(t.group,e)},t.group.extendPrototype=function(e){a(t.group.prototype,e)},t.extendGroup=t.group.extend,t.extendGroupProto=t.group.extendPrototype,n.extend=function(e){a(n,e)},n.extendPrototype=function(e){a(n.prototype,e)},t.extendPlaylist=n.extend,t.extendPlaylistProto=n.extendPrototype}(),function(){"use strict";var e,t,o,n,a,r,i,s=Chapel.options;s.showControls&&(e=$(document.createElement("div")).attr("id","story-menu").css("display","none"),t=$(document.createElement("span")).attr("id","vol-title").append("Volume"),s.volumeDisplay||t.css("display","none"),o=$(document.createElement("input")).attr({id:"audio-volume",type:"range",min:1,max:99,step:1,title:"Volume"}).addClass("hal"),(a=Math.trunc(100*window.Chapel.Audio.master.volume))<0?a=0:100<a&&(a=100),o.attr("value",a),n=function(e){void 0===e&&(e=o.val()),t.empty().append("Volume "+e)},o.on("input",function(){window.Chapel.Audio.volume($(this).val()/100),n($(this).val())}),a=$(document.createElement("tw-link")).attr({id:"audio-mute",title:"Mute"}).append("Mute <span></span>").on("click",function(e){e.preventDefault(),$(this).toggleClass("muted"),Chapel.Audio.mute(!Chapel.Audio.isMuted())}),Chapel.Audio.isMuted()&&a.addClass("muted"),r=$(document.createElement("tw-link")).attr("id","audio-panel-toggle").on("click",function(e){e.preventDefault(),i.toggleClass("closed")}),i=$(document.createElement("div")).attr("id","audio-controls").append(e,t,o,a,r).appendTo(document.body),s.sidebarStartClosed&&i.addClass("closed"),window.Chapel=window.Chapel||{},window.Chapel.Audio=window.Chapel.Audio||{},window.Chapel.Audio.controls={$panel:i,$volume:o,$mute:a,$user:e,close:function(){i.addClass("closed")},open:function(){i.removeClass("closed")},toggle:function(){i.toggleClass("closed")},hide:function(){i.css("display","none")},show:function(){i.css("display","block")},updateVolume:n})}(),function(){"use strict";var s=Chapel.options,t=State,e=$(document.createElement("div")).attr("id","audio-overlay").css("display","none").appendTo(document.body);function o(){e.css("display","block").append('<div class="lds-ring"><div></div><div></div><div></div><div></div></div>')}function u(){e.fadeOut(function(){e.empty()})}window.Chapel=window.Chapel||{},window.Chapel.Audio=window.Chapel.Audio||{},window.Chapel.Audio.loadScreen={show:o,dismiss:u,kill:function(){$("#audio-overlay").remove()}},window.Chapel.Audio.$overlay=e,window.Chapel.Audio.preload=function(){var a,e,r,i;Chapel.debug("This is a mobile browser -> ",$.browser.mobile),t.pastLength||t.futureLength||$.browser.mobile||($(document).ready(function(){o()}),a=100+s.loadDelay,e=Chapel.Audio.classes.Track.list,r=Chapel.Audio.loaded,e.length?(i=Fast.map(e,function(e){return e.id}),0<s.totalLoadLimit&&setTimeout(function(){u()},s.totalLoadLimit),function e(){var t,o,n;i.length?(t=i.shift(),r.includes(t)?e():(o=Chapel.Audio.classes.Track.get(t)).unwrap.readyState<2?(n=!1,o.$el.one("canplaythrough.hal",function(){e(),n=!0}),setTimeout(function(){n||(o.$el.off("canplaythrough.hal"),e())},s.trackLoadLimit)):(r.includes(t)||r.push(t),e())):setTimeout(u,a)}()):setTimeout(u,a))}}(),function(){"use strict";var e,t,o=Chapel.options.storagekey+"_hal_restart_",n=(Chapel.debug("HAL Session Key -> ",o),window.sessionStorage?(Chapel.debug("Session Storage Available"),e=function(e,t){window.sessionStorage.setItem(o+e,t)},t=function(e){return window.sessionStorage.getItem(o+e)}):(Chapel.debug("Session Storage Unavailable"),e=function(){},t=function(){},console.warn("Session storage is unavailable...")),{save:e,load:t});window.Chapel.Audio.state={_store:n,saveTracks:function(){var e;try{e=Fast.map(Chapel.Audio.classes.Track.list,function(e){return{id:e.id,sources:e.sources}}),Chapel.debug("Session Saved (Tracks) -> ",e),e=JSON.stringify(e),n.save("tracks",e)}catch(e){console.error(e.message)}},loadTracks:function(){var e;try{e=(e=n.load("tracks"))&&JSON.parse(e),Array.isArray(e)&&e.length&&(Chapel.debug("Session Loaded (Tracks) -> ",e),Fast.forEach(e,function(e){e.id&&e.sources&&!Chapel.Audio.classes.Track.has(e.id)?Chapel.Audio.newTrack.apply(null,[e.id].concat(e.sources)):Chapel.debug("Track reloading skipped.")}))}catch(e){console.error(e.message)}},savePlaylists:function(){try{var o=Chapel.Audio.classes.Playlist.list,e=Fast.map(Object.keys(o),function(e){var t={};return t.tracks=Fast.map(o[e].tracks,function(e){return e.id}),t.id=o[e].id,t});Chapel.debug("Session Saved (Playlists) -> ",e),e=JSON.stringify(e),n.save("playlists",e)}catch(e){console.error(e.message)}},loadPlaylists:function(){var e;try{(e=(e=n.load("playlists"))&&JSON.parse(e))&&Array.isArray(e)&&e.length&&(Chapel.debug("Session Loaded (Playlists) -> ",e),Fast.forEach(e,function(e){e.id&&e.tracks&&Chapel.Audio.createPlaylist(e.id,e.tracks)}))}catch(e){console.error(e.message)}},saveGroups:function(){var t;try{t={},Fast.forEach(Object.keys(Chapel.Audio.groups.custom),function(e){t[e]=Fast.map(Chapel.Audio.groups.custom[e],function(e){return"string"==typeof e?e:e.id})}),Chapel.debug("Session Saved (Groups) -> ",t),t=JSON.stringify(t),n.save("groups",t)}catch(e){console.error(e.message)}},loadGroups:function(){var t;try{(t=(t=n.load("groups"))&&JSON.parse(t))&&"object"==typeof t&&(Chapel.debug("Session Loaded (Groups) -> ",t),Fast.forEach(Object.keys(t),function(e){Fast.map(t[e],function(e){return Chapel.Audio.classes.Track.get(e)})}),Chapel.Audio.groups.custom=t)}catch(e){console.error(e.message)}}}}(),function(){"use strict";var e=Chapel.options;e.globalA&&void 0===window.A&&(Chapel.debug("Created global A interface."),window.A=window.Chapel.Audio),Chapel.Get.fromPassage&&(Chapel.debug("Loading tracks from track def special passage -> ",Chapel.Get.fromPassage),Chapel.Get.fromPassage.forEach(function(e,t){Chapel.Audio.newTrack.apply(null,[t].concat(e))})),$(document).on("unload",function(){Chapel.debug("User Prefs Saved"),window.Chapel.Audio.savePrefs()}),Chapel.Audio.classes.Track.renew(),Chapel.Audio.controls&&Chapel.Audio.controls.updateVolume(),Chapel.Get.isHarlowe3OrLater&&($(window).on("unload",function(){Chapel.debug("HAL State Saved"),Chapel.Audio.state.saveTracks(),Chapel.Audio.state.savePlaylists(),Chapel.Audio.state.saveGroups()}),Chapel.debug("HAL State Loaded"),Chapel.Audio.state.loadTracks(),Chapel.Audio.state.loadPlaylists(),Chapel.Audio.state.loadGroups()),e.persistPrefs&&(Chapel.debug("User Prefs Loaded"),Chapel.Audio.loadPrefs())}(),function(){"use strict";var i,s,e,u,t;Chapel.options.showControls&&(i=Engine,s=Chapel.Audio.controls.$user,e=function(){return"none"!==s.css("display")},u=function(){return e()||s.css("display","block"),s},t=function(){return e()&&s.css("display","none"),s},Chapel.Audio.menu={hide:t,show:u,isShown:e,links:{add:function(e,t,o){var n,a;if(!e||"string"!=typeof e)return r="undefined",alert(r),void console.error(r);o||"function"!=typeof t?(t&&"string"==typeof t&&(n=t),o&&"function"==typeof o&&(a=o)):(a=t,n=null);var r=$(document.createElement("tw-link")).append(e).attr({tabindex:"0",name:e.toLowerCase().trim()}).on("click",function(){n&&i.goToPassage(n),a&&a()}).addClass("story-menu").appendTo(s);return u(),r},clear:function(){return s.empty(),t()},hide:function(e){e=e.toLowerCase().trim(),$('tw-link.story-menu[name="'+e+'"]').addClass("hide")},show:function(e){e=e.toLowerCase().trim(),$('tw-link.story-menu[name="'+e+'"]').removeClass("hide")},toggle:function(e){e=e.toLowerCase().trim(),$('tw-link.story-menu[name="'+e+'"]').toggleClass("hide")},remove:function(e){e=e.toLowerCase().trim(),$('tw-link.story-menu[name="'+e+'"]').remove()}}})}(),function(){"use strict";var n=Chapel.Audio;function o(e){return e&&"function"==typeof e}function a(e,t){if(!e||"string"!=typeof e)return null;switch(e=e.toLowerCase().trim()){case"isplaying":e="isPlaying";break;case"playwhenpossible":e="playWhenPossible";break;case"ismuted":e="isAMuted";break;case"togglemute":e="toggleMute";break;case"getvolume":e="getVolume";break;case"islooping":e="isLooping";break;case"toggleloop":e="toggleLoop";break;case"fadein":e="fadeIn";break;case"fadeout":e="fadeOut";break;case"fadeto":e="fadeTo";break;case"stopall":e="stopAll"}if("isPlaying"===e&&"master"===t&&(e="audioPlaying"),"group"===t){if(o(n.group.prototype[e]))return e}else if("master"===t){if(o(n[e]))return e}else if(o(n.classes[t].prototype[e]))return e;throw new ReferenceError('Cannot run the command: "'+e+'" on the API "'+t+'". The command may be invalid, or this may be a bug in HAL.',"macros.js -> getCommand()",10)}window.Chapel.Macros.add({newtrack:function(){var e=[].slice.call(arguments);try{return n.newTrack.apply(null,e)}catch(e){alert("Error in the (newtrack:) macro: "+e.message)}},newplaylist:function(e,t){t=[].slice.call(arguments).slice(1);try{return n.createPlaylist(e,t)}catch(e){alert("Error in the (newplaylist:) macro: "+e.message)}},newgroup:function(e,t){t=[].slice.call(arguments).slice(1);try{return n.createGroup(e,t)}catch(e){alert("Error in the (newgroup:) macro: "+e.message)}},masteraudio:function(e){try{return e=a(e,"master"),n[e].apply(null,[].slice.call(arguments).slice(1))}catch(e){alert("Error in the (masteraudio:) macro: "+e.message)}},track:function(e,t){try{var o=n.track(e);return o[t=a(t,"Track")].apply(o,[].slice.call(arguments).slice(2))}catch(e){alert("Error in the (track:) macro: "+e.message)}},playlist:function(e,t){try{var o=n.playlist(e);return o[t=a(t,"Playlist")].apply(o,[].slice.call(arguments).slice(2))}catch(e){alert("Error in the (playlist:) macro: "+e.message)}},group:function(e,t){try{var o=n.group(e);return o[t=a(t,"group")].apply(o,[].slice.call(arguments).slice(2))}catch(e){alert("Error in the (group:) macro: "+e.message)}}})}();
-/** End of HAL code */</script><tw-tag name="Telemacus" color="yellow"></tw-tag><tw-tag name="Aethra" color="red"></tw-tag><tw-tag name="Orion" color="blue"></tw-tag><tw-tag name="Veronica" color="purple"></tw-tag><tw-tag name="Telemacus2" color="yellow"></tw-tag><tw-passagedata pid="1" name="Aertha" tags="Aethra" position="100,800" size="100,100">Εμφάνιση: Νεαρή κοπέλα με λεπτό και αποδυναμωμένο σώμα. Φοράει απλά σκούρα ρούχα, φθαρμένα αλλά καθαρά και πρακτικά. Τα μαλλιά της είναι δεμένα χαμηλά, με κάποιες ατίθασες τούφες να ξεφεύγουν από τον δεσμό τους. Το πρόσωπό της έχει την νεακή λάμψη, με έντονα ζυγωματικά. Τα μάτια της είναι σκούρα, σχεδόν μαύρα και το βλέμμα της βαθύ. Τα χέρια της είναι σκληραγωγημένα, μαθημένα στην δουλεία.
+/** End of HAL code */</script><tw-tag name="Telemacus" color="yellow"></tw-tag><tw-tag name="Aethra" color="red"></tw-tag><tw-tag name="Orion" color="blue"></tw-tag><tw-tag name="Veronica" color="purple"></tw-tag><tw-tag name="Telemacus2" color="yellow"></tw-tag><tw-tag name="Nyx" color="purple"></tw-tag><tw-passagedata pid="1" name="Aertha" tags="Aethra" position="100,800" size="100,100">Εμφάνιση: Νεαρή κοπέλα με λεπτό και αποδυναμωμένο σώμα. Φοράει απλά σκούρα ρούχα, φθαρμένα αλλά καθαρά και πρακτικά. Τα μαλλιά της είναι δεμένα χαμηλά, με κάποιες ατίθασες τούφες να ξεφεύγουν από τον δεσμό τους. Το πρόσωπό της έχει την νεακή λάμψη, με έντονα ζυγωματικά. Τα μάτια της είναι σκούρα, σχεδόν μαύρα και το βλέμμα της βαθύ. Τα χέρια της είναι σκληραγωγημένα, μαθημένα στην δουλεία.
 
 &lt;div&gt;(align:&quot;=&gt;&lt;=&quot;)[&lt;img class=&quot;aethra-img&quot;
 src= &quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/Aethra.png&quot; /&gt;]&lt;/div&gt;
@@ -344,7 +348,7 @@ Aethra: &lt;h5&gt;Πρέπει να τελειώνουμε. Κανείς μόν�
 
 [[...to enter Evergreen&#39;s Mansion|Intro]]]&lt;/div&gt;
 
-(enchant:?page,(bg:#111111))</tw-passagedata><tw-passagedata pid="9" name="Nyx" tags="" position="100,950" size="100,100">&lt;div class=&quot;nyx-wrapper&quot;&gt;
+(enchant:?page,(bg:#111111))</tw-passagedata><tw-passagedata pid="9" name="Nyx" tags="Nyx" position="100,950" size="100,100">&lt;div class=&quot;nyx-wrapper&quot;&gt;
 
     &lt;h1&gt;Nyx&lt;/h1&gt;
 
@@ -363,95 +367,35 @@ Aethra: &lt;h5&gt;Πρέπει να τελειώνουμε. Κανείς μόν�
     &lt;br&gt;&lt;br&gt;
     (link: &quot;⬅ Πίσω&quot;)[(undo:)]
 &lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="10" name="Nyx 1" tags="" position="250,950" size="100,100">Σκηνή πρώτη
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="10" name="Nyx 1" tags="Nyx" position="250,950" size="100,100">Σκηνή πρώτη
 Εσωτερικό - Τραπεζαρία
 Απόγευμα 
 ---------------------------
 
+&lt;div&gt;(align:&quot;=&gt;&lt;=&quot;)[&lt;img src= &quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/NyxSymbol.png&quot; style=&quot;width:300px; height:auto;&quot;/&gt;]&lt;/div&gt;
+&lt;span class=&quot;highlight&quot;&gt;// Η ανάσα μου είναι ρηχή. Όχι από πανικό. Από την αίσθηση ότι κάτι δεν ταιριάζει. Παρατηρώ τους υπόλοιπους. Η Veronica ψάχνει κάτι. Το πτηνό μοιάζει σαν να το έχει ξαναζήσει. Ο Orion δεν δείχνει έκπληκτος. Η Aertha είναι η μόνη που φοβάται πραγματικά.//
 
-&lt;span class=&quot;highlight&quot;&gt;// Η ανάσα μου είναι ρηχή.
-// Όχι από πανικό. Από την αίσθηση ότι κάτι δεν ταιριάζει.&lt;/span&gt;
+//Κι όμως… όλοι κοιτάζουν το πάτωμα. Κοιτάω τα κεριά. Έχουν λιώσει υπερβολικά. Κοιτάω το ρολόι. Ο ήχος του δεν συμφωνεί με την κίνηση. Κοιτάω τον φάκελο. Σαν να ήταν εδώ πριν από εμάς. Το τελευταίο πράγμα που θυμάμαι… δεν οδηγεί εδώ. Και τότε το καταλαβαίνω. Δεν θυμάμαι την αρχή. Δεν θυμάμαι πότε κάθισα.//
 
-Παρατηρώ τους υπόλοιπους.
-
-Η Veronica ψάχνει κάτι.
-Το πτηνό μοιάζει σαν να το έχει ξαναζήσει.
-Ο Orion δεν δείχνει έκπληκτος.
-Η Aertha είναι η μόνη που φοβάται πραγματικά.
-
-Κι όμως… όλοι κοιτάζουν το πάτωμα.
-
-Κοιτάω τα κεριά.
-Έχουν λιώσει υπερβολικά.
-
-Κοιτάω το ρολόι.
-Ο ήχος του δεν συμφωνεί με την κίνηση.
-
-Κοιτάω τον φάκελο.
-Σαν να ήταν εδώ πριν από εμάς.
-
-Το τελευταίο πράγμα που θυμάμαι… δεν οδηγεί εδώ.
-
-Και τότε το καταλαβαίνω.
-
-Δεν θυμάμαι την αρχή.
-Δεν θυμάμαι πότε κάθισα.
-
-Σηκώνω το βλέμμα μου.
+//Σηκώνω το βλέμμα μου.//&lt;/span&gt;
 
 Nyx:&lt;h5&gt;Δεν βρεθήκαμε εδώ πριν λίγο.&lt;/h5&gt;
 Nyx: &lt;h5&gt;Είμαστε εδώ περισσότερο απ’ όσο νομίζουμε.&lt;/h5&gt;
-(click: ?page)[(goto: &quot;Veronica 2&quot;)]</tw-passagedata><tw-passagedata pid="11" name="Nyx 2" tags="" position="400,950" size="100,100">Σκηνή δεύτερη
+(click: ?page)[(goto: &quot;Veronica 2&quot;)]</tw-passagedata><tw-passagedata pid="11" name="Nyx 2" tags="Nyx" position="400,950" size="100,100">Σκηνή δεύτερη
 Εσωτερικό - Τραπεζαρία
 Απόγευμα 
 ---------------------------
 
+&lt;div&gt;(align:&quot;=&gt;&lt;=&quot;)[&lt;img src= &quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/NyxSymbol.png&quot; style=&quot;width:300px; height:auto;&quot;/&gt;]&lt;/div&gt;
+&lt;span class=&quot;highlight&quot;&gt;// Η καρδιά μου χτυπάει γρήγορα. Όχι από τον θόρυβο. Από αυτό που ξέρω πια. Δεν θυμάμαι να το άκουσα. Δεν ειπώθηκε με λόγια. Κι όμως… η γνώση υπάρχει μέσα μου. Σαν να τοποθετήθηκε βίαια, χωρίς χρόνο, χωρίς φωνή. Η Aertha είπε πως κανείς δεν μπορεί να φύγει. //&lt;/span&gt;
 
-&lt;span class=&quot;highlight&quot;&gt;// Η καρδιά μου χτυπάει γρήγορα.//&lt;/span&gt;
-Όχι από τον θόρυβο.
+Nyx: &lt;h6&gt;Μπορεί όμως… κάτι να μπει;&lt;/h6&gt;
+&lt;span class=&quot;highlight&quot;&gt;//Σηκώνω το βλέμμα μου και κοιτάω το δωμάτιο σαν μηχανισμό. Το τραπέζι. Τα κεριά. Το τζάκι. Τα παράθυρα. Ο ρούνος. Αν υπάρχει μαγεία που δεσμεύει, τότε υπάρχει και τρόπος που λειτουργεί. Κοιτάω το σημείο που στεκόταν ο Orion. Με κοίταξε. Όχι τυχαία. Αν αυτό που έμαθα είναι αλήθεια, τότε δεν μπορεί αυτή να είναι η μόνη κατάληξη.
 
-Από αυτό που ξέρω πια.
+Καμία κατάρα δεν αφήνει μόνο έναν δρόμο. Το βλέμμα μου περνά από τους υπόλοιπους. Η Veronica σκέφτεται. Η Aertha προστατεύει. Το πτηνό μιλάει με ειρωνεία, σαν αυτό να είναι άλλη μία παράξενη ιστορία.//&lt;/span&gt;
 
-Δεν θυμάμαι να το άκουσα.
-Δεν ειπώθηκε με λόγια.
-Κι όμως… η γνώση υπάρχει μέσα μου.
-
-Σαν να τοποθετήθηκε βίαια, χωρίς χρόνο, χωρίς φωνή.
-
-Η Aertha είπε πως κανείς δεν μπορεί να φύγει.
-
-Μπορεί όμως… κάτι να μπει;
-
-Σηκώνω το βλέμμα μου και κοιτάω το δωμάτιο σαν μηχανισμό.
-
-Το τραπέζι. Τα κεριά. Το τζάκι. Τα παράθυρα. Ο ρούνος.
-
-Αν υπάρχει μαγεία που δεσμεύει, τότε υπάρχει και τρόπος που λειτουργεί.
-
-Κοιτάω το σημείο που στεκόταν ο Orion.
-
-Με κοίταξε. Όχι τυχαία.
-
-Αν αυτό που έμαθα είναι αλήθεια, τότε δεν μπορεί αυτή να είναι η μόνη κατάληξη.
-Καμία κατάρα δεν αφήνει μόνο έναν δρόμο.
-
-Το βλέμμα μου περνά από τους υπόλοιπους.
-
-Η Veronica σκέφτεται.
-Η Aertha προστατεύει.
-Το πτηνό μιλάει με ειρωνεία, σαν αυτό να είναι άλλη μία παράξενη ιστορία.
-
-Κάτι δεν κολλάει.
-
-Πέντε άγνωστοι.
-Πέντε διαφορετικές ζωές.
-Κι όμως, εδώ.
-
-Αν αυτό που είπε ο Orion ισχύει…
-τότε δεν μπορεί να είναι τυχαίο που είμαστε και οι πέντε στο ίδιο δωμάτιο.
-
-Ίσως δεν συνδεόμαστε μεταξύ μας άμεσα.
-Ίσως συνδεόμαστε μέσα στον χώρο και τον χρόνο.
+Nyx: &lt;h6&gt;Κάτι δεν κολλάει.&lt;/h6&gt;
+&lt;span class=&quot;highlight&quot;&gt;//Πέντε άγνωστοι. Πέντε διαφορετικές ζωές. Κι όμως, εδώ. Αν αυτό που είπε ο Orion ισχύει… τότε δεν μπορεί να είναι τυχαίο που είμαστε και οι πέντε στο ίδιο δωμάτιο. Ίσως δεν συνδεόμαστε μεταξύ μας άμεσα. Ίσως συνδεόμαστε μέσα στον χώρο και τον χρόνο..//&lt;/span&gt;
 
 Το χτύπημα ακούγεται ξανά. Πιο δυνατό.
 Το ξύλο τρίζει.
@@ -462,12 +406,12 @@ Nyx: &lt;h5&gt;Μακριά από την πόρτα.&lt;/h5&gt;
 Nyx: &lt;h5&gt;Αν δεν μπορούμε να φύγουμε… τότε δεν πρέπει να αφήσουμε τίποτα να μπει.&lt;/h5&gt;
 Η πόρτα αρχίζει να υποχωρεί.
 
-(click: ?page)[(goto: &quot;Veronica 3&quot;)]</tw-passagedata><tw-passagedata pid="12" name="Nyx 3" tags="" position="550,950" size="100,100">Σκηνή τρίτη
+(click: ?page)[(goto: &quot;Veronica 3&quot;)]</tw-passagedata><tw-passagedata pid="12" name="Nyx 3" tags="Nyx" position="550,950" size="100,100">Σκηνή τρίτη
 Εσωτερικό - Τραπεζαρία
 Χρόνος: Άγνωστος
 ---------------------------
 
-
+&lt;div&gt;(align:&quot;=&gt;&lt;=&quot;)[&lt;img src= &quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/NyxSymbol.png&quot; style=&quot;width:300px; height:auto;&quot;/&gt;]&lt;/div&gt;
 Το χτύπημα στην πόρτα σταματά απότομα.
 
 Η σιωπή που ακολουθεί δεν είναι ανακούφιση.
@@ -477,14 +421,7 @@ Nyx: &lt;h5&gt;Αν δεν μπορούμε να φύγουμε… τότε δε
 Ένα αχνό φως περνά στιγμιαία κάτω από την πόρτα, σαν σκιά που ανασαίνει.
 Ύστερα σκοτάδι πάλι.
 
-Για άλλη μια φορά…
-νιώθω τη γνώση να εμφανίζεται μέσα μου χωρίς να την έχω σκεφτεί.
-
-Δεν την άκουσα.
-Δεν ειπώθηκε.
-Κι όμως… υπάρχει.
-
-Το μήνυμα του Orion.
+&lt;span class=&quot;highlight&quot;&gt;//Για άλλη μια φορά… νιώθω τη γνώση να εμφανίζεται μέσα μου χωρίς να την έχω σκεφτεί. Δεν την άκουσα. Δεν ειπώθηκε. Κι όμως… υπάρχει. Το μήνυμα του Orion.
 Ή μήπως όχι;
 
 Η φωνή της Aethra αντηχεί ακόμη στο μυαλό μου:
@@ -563,12 +500,12 @@ Nyx: &lt;h5&gt;Αν είναι παγίδα… θα το μάθουμε τώρα
 
 Και το φως του ρούνου… αλλάζει ελάχιστα.
 
-(click: ?page)[(goto: &quot;Veronica 4&quot;)]</tw-passagedata><tw-passagedata pid="13" name="Nyx 4" tags="" position="700,950" size="100,100">Σκηνή τέταρτη
+(click: ?page)[(goto: &quot;Veronica 4&quot;)]</tw-passagedata><tw-passagedata pid="13" name="Nyx 4" tags="Nyx" position="700,950" size="100,100">Σκηνή τέταρτη
 Εσωτερικό - Τραπεζαρία
 Χρόνος: Άγνωστος
 ---------------------------
 
-
+&lt;div&gt;(align:&quot;=&gt;&lt;=&quot;)[&lt;img src= &quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/NyxSymbol.png&quot; style=&quot;width:300px; height:auto;&quot;/&gt;]&lt;/div&gt;
 Οι φλόγες που ξέσπασαν από τα λόγια της Aethra έσβησαν όπως ακριβώς γεννήθηκαν·
 απότομα, βίαια, σαν να κόπηκε ένα νήμα που τις κρατούσε ζωντανές.
 
@@ -734,12 +671,12 @@ Nyx: &lt;h5&gt;Εμπιστευτείτε με.&lt;/h5&gt;
 (track: &#39;Rain&#39;, &#39;play&#39;)
 (track: &#39;Clock&#39;, &#39;volume&#39;, 0.8)
 (track: &#39;Clock&#39;, &#39;loop&#39;, true)
-(track: &#39;Clock&#39;, &#39;play&#39;)</tw-passagedata><tw-passagedata pid="14" name="Nyx 5" tags="" position="850,950" size="100,100">Σκηνή Πέμπτη
+(track: &#39;Clock&#39;, &#39;play&#39;)</tw-passagedata><tw-passagedata pid="14" name="Nyx 5" tags="Nyx" position="850,950" size="100,100">Σκηνή Πέμπτη
 Εσωτερικό – Τραπεζαρία
 Χρόνος: Σταματημένος
 ---------------------------
 
-
+&lt;div&gt;(align:&quot;=&gt;&lt;=&quot;)[&lt;img src= &quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/NyxSymbol.png&quot; style=&quot;width:300px; height:auto;&quot;/&gt;]&lt;/div&gt;
 &lt;span class=&quot;highlight&quot;&gt;// Ο χρόνος δεν κυλά.
 Ο ήχος δεν επιστρέφει.
 Μόνο το φως του ρούνου αναπνέει. //&lt;/span&gt;
@@ -850,6 +787,14 @@ Nyx: &lt;h5&gt;Ακόμη κι αν χρειαστεί… κάποιος να μ
 Απόγευμα 
 ---------------------------
 
+&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;img
+    src=&quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/OrionSymbol.png&quot;
+    alt=&quot;OrionSymbol&quot;
+    style=&quot;width:300px; height:auto;&quot;
+  &gt;
+&lt;/div&gt;
+
 
 &lt;span class=&quot;highlight&quot;&gt;//Ο Orion κοιτάει γύρω του. Αναλύει τα σώματα του κάθενός εκεί μέσα. Δεν του φαίνεται τίποτα περίεργο. Κοιτάει το πτηνό που το όνομα ακόμα δεν ξέρει.  Ακούει αυτό που είπε το πτηνό. Αναφυσάει με ενα ύφος , αντε να τελειώνουμε. Ο Orion σκύβει κάτω απο το τραπέζι. Εκεί βλέπει στο πάτωμα ένα σύμβολο. Είναι ένας ρούνος. Τα μάτια του Orion γουρλώνουν.//&lt;/span&gt;
 
@@ -862,6 +807,14 @@ Orion: &lt;h5&gt;Παρεπιπτώντος, με λένε Orion, Βασιλιά
 Εσωτερικό - Τραπεζαρία
 Απόγευμα 
 ---------------------------
+
+&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;img
+    src=&quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/OrionSymbol.png&quot;
+    alt=&quot;OrionSymbol&quot;
+    style=&quot;width:300px; height:auto;&quot;
+  &gt;
+&lt;/div&gt;
 
 
 Ο Orion γυρνάει και κοιτάει τον Telemacus.  Γυρνάει και κοιτάει και τους υπόλοιπους. Το βλέμα του είναι σοβαρό και σκεπτικό. 
@@ -917,6 +870,13 @@ Orion: &lt;h5&gt;Για αυτό έχεις κομμάτι απο το γράμ�
 Χρόνος: Άγνωστος
 ---------------------------
 
+&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;img
+    src=&quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/OrionSymbol.png&quot;
+    alt=&quot;OrionSymbol&quot;
+    style=&quot;width:300px; height:auto;&quot;
+  &gt;
+&lt;/div&gt;
 
 &lt;span class=&quot;highlight&quot;&gt;// Η Aethra ξέρει ότι είμαι ακόμα εδώ. Έχει ικανότητες σαν του γηραιού… άρα μάγισσα.
 // Η Veronica κάτι κρύβει. Το πτηνό ποτέ δεν το συμπάθησα.
@@ -925,9 +885,18 @@ Orion: &lt;h5&gt;Για αυτό έχεις κομμάτι απο το γράμ�
 
 Ο Orion κλείνει τα μάτια και αφήνει τη σκιά του να γλιστρήσει έξω από τα όρια του δωματίου. Δεν περνάει «κανονικά» αλλά σαν καπνός, σαν ρωγμή στο φως.
 
+
+&lt;img
+  src=&quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/OrionViewDoor.png&quot;
+  alt=&quot;OrionViewDoor&quot;
+  width=&quot;400&quot;
+  height=&quot;400&quot;
+/&gt;
+
 Μόλις βγει, ο κόσμος γίνεται παραμορφωμένος. Οι γραμμές στραβώνουν, οι αποστάσεις αλλάζουν, τα χρώματα μοιάζουν αρρωστημένα. 
 
 Η σκιά προχωρά σε έναν χώρο που μοιάζει με σαλόνι.
+
 
 Στο κέντρο, σαν να φυλάσσουν την αίθουσα, στέκουν πέντε αγάλματα:
 — Το πρώτο φορά στέμμα.
@@ -936,11 +905,24 @@ Orion: &lt;h5&gt;Για αυτό έχεις κομμάτι απο το γράμ�
 — Το τέταρτο μοιάζει με μάγισσα.
 — Το πέμπτο… είναι θολό. Σαν να αρνείται να αποκαλυφθεί.
 
+
+&lt;img
+  src=&quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/OrionShadowView.png&quot;
+  alt=&quot;OrionShadowView&quot;
+  style=&quot;width:300px; height:auto;&quot;
+&gt;
+
 Ο Orion προσπαθεί να εστιάσει στο πέμπτο άγαλμα
 
 ΞΑΦΝΙΚΑ, μια αόρατη δύναμη τον αρπάζει. Σαν χέρι γύρω από τον λαιμό του.
 
 Η σκιά του ραγίζει.
+
+&lt;img
+  src=&quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/OrionTransferBody.png&quot;
+  alt=&quot;OrionTransferBody&quot;
+  style=&quot;width:300px; height:auto;&quot;
+&gt;
 
 Κάτι την διαλύει από μέσα προς τα έξω, και ταυτόχρονα τον χτυπά ένα βάρος σε όλο του το σώμα, σαν να τον πλακώνει ο ίδιος ο χώρος. Ο Orion σωριάζεται, πνιγμένος από πόνο, χωρίς ανάσα.
 
@@ -997,7 +979,7 @@ ORION:
 είναι ο ίδιος ο Evergreen.&lt;/h5&gt;
 Ο Orion παγώνει. Μόνο μια σκέψη καρφώνεται:
 
-Δεν είναι απλώς τέρας. Είναι άνθρωπος με σχέδιο.
+//Δεν είναι απλώς τέρας. Είναι άνθρωπος με σχέδιο.//
 
 Και τότε καταλαβαίνει κάτι ακόμη:
 
@@ -1032,6 +1014,16 @@ ORION:
 
 Μεταφέρουν το μήνυμα που του έδωσε η μητέρα του, χωρίς σίγουρο παραλήπτη, μόνο με την ελπίδα ότι κάποιος ή κάποιοι το έλαβαν.
 
+
+&lt;img
+  src=&quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/OrionPassmessage.png&quot;
+  alt=&quot;OrionPassmessage&quot;
+  style=&quot;width:300px; height:auto;&quot;
+&gt;
+
+
+
+
 (click: ?page)[(goto: &quot;Aethra 3&quot;)]
 (track: &#39;Confused&#39;, &#39;fadeout&#39;, 0.2)
 (track: &#39;Shadow&#39;, &#39;volume&#39;, 0.7)
@@ -1041,16 +1033,34 @@ ORION:
 Χρόνος: Άγνωστος
 ---------------------------
 
+&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;img
+    src=&quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/OrionSymbol.png&quot;
+    alt=&quot;OrionSymbol&quot;
+    style=&quot;width:300px; height:auto;&quot;
+  &gt;
+&lt;/div&gt;
+
 
 Ο Orion βρίσκεται πεσμένος με την πλάτη στην πόρτα. Δεν ξέρει τι άλλο να κάνει. Προσπαθεί να σκεφτεί. Πώς μπορεί να μπει στο δωμάτιο. Σηκώνεται από την πόρτα και ξεκινάει να περπατάει στην έπαυλη. Βλέπει παντού πλούτο. Οτιδήποτε φαινόταν άσχημο, στην έπαυλη είναι φτιαγμένο με πλούτο. Το μάτι του πέφτει πάνω στα αγάλματα που είχε δει. Τα τέσσερα τα είδες σωστά, όμως δεν υπήρχε πέμπτο. Ήταν αντανάκλαση σε καθρέφτη. Ο Orion συνεχίζει μήπως και βρει κάποιο στοιχείο. Τι ήταν αυτό που τον τράβηξε έξω και μπήκε μέσα; Πώς μπόρεσε να χρησιμοποιήσει τις σκιές; Άρα γνωρίζει από μαγεία των σκιών.
 
 Περπατώντας βρίσκει ένα δωμάτιο άγνωστο γι’ αυτόν. Εκεί υπάρχει μία οσμή. Οσμή νεκρού. Μπαίνοντας βλέπει παντού σκιές να μετακινούνται. Όπως αυτές που ελέγχει. Συνεχίζει να προχωράει αλλά το δωμάτιο γίνεται όλο και πιο σκοτεινό. Οι σκιές εμποδίζουν την όραση. Ο Orion περνάει μέσα από αυτές. Νιώθει μία έλξη, σαν να τις δημιούργησε αυτός. Ακούει να λένε το όνομά του. Προχωρώντας πιο βαθιά, οι σκιές ανοίγουν και αποκαλύπτουν ένα απόκοσμο θέαμα. Ο Evergreen νεκρός. Καρφωμένος πάνω στον τοίχο με χαραγμένο στο σώμα του το όνομα Orion.
 
+
+&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;img
+    src=&quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/EverGreen.png&quot;
+    alt=&quot;EverGreen&quot;
+    style=&quot;width:450px; height:auto;&quot;
+  &gt;
+&lt;/div&gt;
+
 &lt;span class=&quot;highlight&quot;&gt;// Τι είναι αυτό! //&lt;/span&gt;
 
 Ο Orion κοιτάει το υπόλοιπο δωμάτιο, υπολείμματα σκιών παντού, διατάζει να μετακινηθούν σαν να του ανήκουν. Βλέπει παντού χειρόγραφα και χάρτες, ο τρόμος τον κυριεύει κατευθείαν. Το μάτι του πέφτει πάνω σε μία πληροφορία. Ο Evergreen κατάφερε και σκότωσε τον Orion. Τότε κατάλαβε τι είχε συμβεί
 
-Orion: &lt;h5&gt;Αν ο Evergreen σε έναν διαφορετικό χρόνο με σκότωσε, σημαίνει ότι έλυσε την κατάρα μου, αλλά αυτό θα σήμαινε ότι ελευθέρωσε τη δαιμονική μου μορφή. Όλη αυτή τη διάρκεια ο δαίμονάς μου με εκμεταλλευόταν για να μπει στο δωμάτιο, αλλά γιατί τους θέλει όλους αυτούς μαζί στο δωμάτιο; Η Veronica είχε δίκιο, δεν έβλεπα καθαρά. Δεν είμαστε παγιδευμένοι εξαιτίας του ρούνου. Είμαστε παγιδευμένοι στον χρόνο. Ο ρούνος ίσως είναι η λύση μας. Ο Orion ξεκίνησε να τρέχει προς την πόρτα της τραπεζαρίας θέλοντας να προειδοποιήσει ξανά για αυτό που έμαθε.&lt;/h5&gt;
+Orion: &lt;h5&gt;Αν ο Evergreen σε έναν διαφορετικό χρόνο με σκότωσε, σημαίνει ότι έλυσε την κατάρα μου, αλλά αυτό θα σήμαινε ότι ελευθέρωσε τη δαιμονική μου μορφή. Όλη αυτή τη διάρκεια ο δαίμονάς μου με εκμεταλλευόταν για να μπει στο δωμάτιο, αλλά γιατί τους θέλει όλους αυτούς μαζί στο δωμάτιο; Η Veronica είχε δίκιο, δεν έβλεπα καθαρά. Δεν είμαστε παγιδευμένοι εξαιτίας του ρούνου. Είμαστε παγιδευμένοι στον χρόνο. Ο ρούνος ίσως είναι η λύση μας.&lt;/h5&gt;
+Ο Orion ξεκίνησε να τρέχει προς την πόρτα της τραπεζαρίας θέλοντας να προειδοποιήσει ξανά για αυτό που έμαθε.
 
 [Παράλληλα]
 Εσωτερικό — Τραπεζαρία
@@ -1074,6 +1084,13 @@ Orion: &lt;h5&gt;Χμ, δεν βλέπω την Veronica κάπου. Ξέρετ�
 Χρόνος: Άγνωστος
 ---------------------------
 
+&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;img
+    src=&quot;https://raw.githubusercontent.com/newfis24310-gif/Twine-project/main/MANSION%20%CE%A3%CE%95%CE%9D%CE%91%CE%A1%CE%99%CE%9F/Images/OrionSymbol.png&quot;
+    alt=&quot;OrionSymbol&quot;
+    style=&quot;width:300px; height:auto;&quot;
+  &gt;
+&lt;/div&gt;
 
 Ο Orion φτάνει στην πόρτα. Οι σκιές γύρω του σπαρταρούν, σαν να περιμένουν εντολή. Πρέπει να τους προειδοποιήσει: ο Evergreen είναι νεκρός… κι εκείνος, μέσα στην τραπεζαρία, δεν είναι ο ίδιος. Είναι ο δαίμονας. Από άλλη χρονολογία.
 
